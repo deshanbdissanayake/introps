@@ -8,12 +8,12 @@
 			<p class="title-sub small mr-b-10">Our work is endorsed by a diverse range of clients and partners. Explore who's chosen to work with us.</p>
 
 			<ul class="inline-list gt-small size-small reset op-05">
-				<li><img src="images/brand-logo1_light.png" alt="brand"></li>
-				<li><img src="images/brand-logo2_light.png" alt="brand"></li>
-				<li><img src="images/brand-logo3_light.png" alt="brand"></li>
-				<li><img src="images/brand-logo4_light.png" alt="brand"></li>
-				<li><img src="images/brand-logo5_light.png" alt="brand"></li>
-				<li><img src="images/brand-logo6_light.png" alt="brand"></li>
+				<li><img src="assets/images/brand-logo1_light.png" alt="brand"></li>
+				<li><img src="assets/images/brand-logo2_light.png" alt="brand"></li>
+				<li><img src="assets/images/brand-logo3_light.png" alt="brand"></li>
+				<li><img src="assets/images/brand-logo4_light.png" alt="brand"></li>
+				<li><img src="assets/images/brand-logo5_light.png" alt="brand"></li>
+				<li><img src="assets/images/brand-logo6_light.png" alt="brand"></li>
 			</ul>
 			
 		</div>

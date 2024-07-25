@@ -16,7 +16,7 @@
 						<div class="overlay flex-bl typo-light">
 							<div class="content mr-30 z2">
 								<!-- Pop-up Image and link -->
-								<a href="/images/mockup-01.jpg" class="inline-flex sq40 bg-primary flex-cc fs24 mr-b-20 pop-img"><i class="pe-7s-expand1"></i></a>
+								<a href="assets/images/mockup-01.jpg" class="inline-flex sq40 bg-primary flex-cc fs24 mr-b-20 pop-img"><i class="pe-7s-expand1"></i></a>
 								<a href="https://goo.gl/ZMxnYs" target="_blank" class="inline-flex sq40 bg-primary flex-cc fs24 mr-b-20"><i class="pe-7s-link"></i></a>
 								
 								<!-- Text content -->
@@ -26,7 +26,7 @@
 							<b class="full-wh bg-dark op-09 z1 l0"></b>
 						</div>
 						<!-- Project image -->
-						<img src="/images/mockup-01.jpg" alt="image">
+						<img src="assets/images/mockup-01.jpg" alt="image">
 					</figure><!-- / hover box -->
 				</div><!-- // END : column //  -->
 
@@ -35,7 +35,7 @@
 						<div class="overlay flex-bl typo-light">
 							<div class="content mr-30 z2">
 								<!-- Pop-up Image and link -->
-								<a href="/images/mockup-02.jpg" class="inline-flex sq40 bg-primary flex-cc fs24 mr-b-20 pop-img"><i class="pe-7s-expand1"></i></a>
+								<a href="assets/images/mockup-02.jpg" class="inline-flex sq40 bg-primary flex-cc fs24 mr-b-20 pop-img"><i class="pe-7s-expand1"></i></a>
 								<a href="https://goo.gl/ZMxnYs" target="_blank" class="inline-flex sq40 bg-primary flex-cc fs24 mr-b-20"><i class="pe-7s-link"></i></a>
 								
 								<!-- Text content -->
@@ -45,7 +45,7 @@
 							<b class="full-wh bg-dark op-09 z1 l0"></b>
 						</div>
 						<!-- Project image -->
-						<img src="/images/mockup-02.jpg" alt="image">
+						<img src="assets/images/mockup-02.jpg" alt="image">
 					</figure><!-- / hover box -->
 				</div><!-- // END : column //  -->
 
@@ -54,7 +54,7 @@
 						<div class="overlay flex-bl typo-light">
 							<div class="content mr-30 z2">
 								<!-- Pop-up Image and link -->
-								<a href="/images/mockup-03.jpg" class="inline-flex sq40 bg-primary flex-cc fs24 mr-b-20 pop-img"><i class="pe-7s-expand1"></i></a>
+								<a href="assets/images/mockup-03.jpg" class="inline-flex sq40 bg-primary flex-cc fs24 mr-b-20 pop-img"><i class="pe-7s-expand1"></i></a>
 								<a href="https://goo.gl/ZMxnYs" target="_blank" class="inline-flex sq40 bg-primary flex-cc fs24 mr-b-20"><i class="pe-7s-link"></i></a>
 								
 								<!-- Text content -->
@@ -64,7 +64,7 @@
 							<b class="full-wh bg-dark op-09 z1 l0"></b>
 						</div>
 						<!-- Project image -->
-						<img src="/images/mockup-03.jpg" alt="image">
+						<img src="assets/images/mockup-03.jpg" alt="image">
 					</figure><!-- / hover box -->
 				</div><!-- // END : column //  -->
 
@@ -73,7 +73,7 @@
 						<div class="overlay flex-bl typo-light">
 							<div class="content mr-30 z2">
 								<!-- Pop-up Image and link -->
-								<a href="/images/mockup-04.jpg" class="inline-flex sq40 bg-primary flex-cc fs24 mr-b-20 pop-img"><i class="pe-7s-expand1"></i></a>
+								<a href="assets/images/mockup-04.jpg" class="inline-flex sq40 bg-primary flex-cc fs24 mr-b-20 pop-img"><i class="pe-7s-expand1"></i></a>
 								<a href="https://goo.gl/ZMxnYs" target="_blank" class="inline-flex sq40 bg-primary flex-cc fs24 mr-b-20"><i class="pe-7s-link"></i></a>
 								
 								<!-- Text content -->
@@ -83,7 +83,7 @@
 							<b class="full-wh bg-dark op-09 z1 l0"></b>
 						</div>
 						<!-- Project image -->
-						<img src="/images/mockup-04.jpg" alt="image">
+						<img src="assets/images/mockup-04.jpg" alt="image">
 					</figure><!-- / hover box -->
 				</div><!-- // END : column //  -->
 
@@ -92,7 +92,7 @@
 						<div class="overlay flex-bl typo-light">
 							<div class="content mr-30 z2">
 								<!-- Pop-up Image and link -->
-								<a href="/images/mockup-05.jpg" class="inline-flex sq40 bg-primary flex-cc fs24 mr-b-20 pop-img"><i class="pe-7s-expand1"></i></a>
+								<a href="assets/images/mockup-05.jpg" class="inline-flex sq40 bg-primary flex-cc fs24 mr-b-20 pop-img"><i class="pe-7s-expand1"></i></a>
 								<a href="https://goo.gl/ZMxnYs" target="_blank" class="inline-flex sq40 bg-primary flex-cc fs24 mr-b-20"><i class="pe-7s-link"></i></a>
 								
 								<!-- Text content -->
@@ -102,7 +102,7 @@
 							<b class="full-wh bg-dark op-09 z1 l0"></b>
 						</div>
 						<!-- Project image -->
-						<img src="/images/mockup-05.jpg" alt="image">
+						<img src="assets/images/mockup-05.jpg" alt="image">
 					</figure><!-- / hover box -->
 				</div><!-- // END : column //  -->
 
@@ -111,7 +111,7 @@
 						<div class="overlay flex-bl typo-light">
 							<div class="content mr-30 z2">
 								<!-- Pop-up Image and link -->
-								<a href="/images/mockup-06.jpg" class="inline-flex sq40 bg-primary flex-cc fs24 mr-b-20 pop-img"><i class="pe-7s-expand1"></i></a>
+								<a href="assets/images/mockup-06.jpg" class="inline-flex sq40 bg-primary flex-cc fs24 mr-b-20 pop-img"><i class="pe-7s-expand1"></i></a>
 								<a href="https://goo.gl/ZMxnYs" target="_blank" class="inline-flex sq40 bg-primary flex-cc fs24 mr-b-20"><i class="pe-7s-link"></i></a> 
 								
 								<!-- Text content -->
@@ -121,7 +121,7 @@
 							<b class="full-wh bg-dark op-09 z1 l0"></b>
 						</div>
 						<!-- Project image -->
-						<img src="/images/mockup-06.jpg" alt="image">
+						<img src="assets/images/mockup-06.jpg" alt="image">
 					</figure><!-- / hover box -->
 				</div><!-- // END : column //  -->
 
