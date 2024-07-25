@@ -19,7 +19,7 @@
 				</div>
 
 				<div class="col-md-5" data-rgen-sm="mr-b-20">
-					<img src="assets/images/800x600-01.jpg" alt="Step 1">
+					<img src="/images/800x600-01.jpg" alt="Step 1">
 				</div><!-- // END : column //  -->
 				
 				<div class="col-md-5 offset-md-1" data-rgen-sm="mr-b-30" data-animate-in="fadeInUp">
@@ -33,7 +33,7 @@
 			==================================-->
 			<div class="row gt0 middle-md">
 				<div class="col-md-5 last-md offset-md-1">
-					<img src="assets/images/800x600-02.jpg" alt="Step 2">
+					<img src="/images/800x600-02.jpg" alt="Step 2">
 				</div><!-- // END : column //  -->
 				<div class="col-md-1 bg-default align-c last-md" data-rgen-sm="mr-b-30">
 					<h2 class="title txt-white f-2 pd-tb-tiny mr-0">02</h2>

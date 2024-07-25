@@ -65,7 +65,7 @@
 
 					<div class="item">
 						<div class="info-obj img-t g20 small align-c h100 bg-white pd-tiny rd-6">
-							<div class="img"><img src="/images/person1.jpg" class="rd" alt="image"></div> 
+							<div class="img"><img src="/assets/images/person1.jpg" class="rd" alt="image"></div> 
 							<div class="info2">
 								<p class="fs16">Psum dolor sit amet, consetetur sadipscing elitr, sed diam tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
 								<hr>

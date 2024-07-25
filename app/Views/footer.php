@@ -6,7 +6,7 @@
 		<div class="container typo-light" data-rgen-sm="align-c">
 			<div class="row gt20 mb20">
 				<div class="col-md-5">
-					<p><a href="#" class="inline-block max-px-w150"><img src="images/logo1.png" class="max-px-w140" alt="logo"></a></p>
+					<p><a href="#" class="inline-block max-px-w150"><img src="/assets/images/logo1.png" class="max-px-w140" alt="logo"></a></p>
 					<p>NO: 54 (1st Floor), Katugastota Road,<br>Kandy, 20000</p> 
 					
 					<!--=========================================

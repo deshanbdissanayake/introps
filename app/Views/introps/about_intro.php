@@ -8,7 +8,7 @@
 				<h2 class="title" data-rgen-sm="small">Who we are</h2>
 				<p class="title-sub" data-rgen-sm="small">Lorem ipsum dolor sitamet consectetur adipisicing elit ullamut consequatur repellendus amet nemo dignissimos possimus eius fugiat</p>	
 			</div>
-			<p class="-mr-b-100" data-rgen-sm="mr-b-20" data-animate-in="fadeInUp"><img src="/images/agency_01.jpg" alt="image"></p>
+			<p class="-mr-b-100" data-rgen-sm="mr-b-20" data-animate-in="fadeInUp"><img src="//assets/images/agency_01.jpg" alt="image"></p>
 		</div><!-- // END : Container //  -->
 
 		<div class="bg-gray pd-tb-small" data-rgen-sm="pd-tb-small">

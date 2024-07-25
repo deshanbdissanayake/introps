@@ -6,7 +6,7 @@
 		<div class="container">
 			<div class="row gt0">
 				<div class="col-md-6" data-animate-in="fadeInUp">
-					<img src="images/map.png" alt="image">
+					<img src="/assets/images/map.png" alt="image">
 				</div><!-- // END : column //  -->
 				<div class="col-md-6 flex-cc" data-animate-in="fadeInUp">
 					<div class="w75 pd-tb-20 mr-auto">

@@ -27,7 +27,7 @@
 
 				<div class="tb-content">
 					<div class="tb-pn pd-l-tiny" data-rgen-sm="pd-0">
-						<p><img src="/images/medical-800x400-01.jpg" alt="image" class="bdr-1 bdr-white shadow-mini"></p>
+						<p><img src="/assets/images/medical-800x400-01.jpg" alt="image" class="bdr-1 bdr-white shadow-mini"></p>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos quaerat similique eveniet, cum officiis reprehenderit fuga sed tempore molestiae modi illum doloremque sapiente nulla culpa debitis rerum quidem, eius alias!</p>
 						
 						<hr class="mr-tb-tiny">

@@ -17,38 +17,38 @@
     <!--pageMeta-->
     
     <!-- Lib CSS -->
-    <link href="assets/lib/bootstrap/css/bootstrap.css" rel="stylesheet">
-    <link href="assets/lib/bootstrap-datetimepicker/css/bootstrap-datetimepicker.min.css" rel="stylesheet">
-    <link href="assets/lib/owl-carousel/owl.css" rel="stylesheet">
-    <link href="assets/lib/Swiper/css/swiper.min.css" rel="stylesheet">
-    <link href="assets/lib/owl-carousel/assets/owl.carousel.min.css" rel="stylesheet">
-    <link href="assets/lib/vegas/vegas.min.css" rel="stylesheet">
-    <link href="assets/lib/Magnific-Popup/magnific-popup.css" rel="stylesheet">
-    <link href="assets/lib/sweetalert/sweetalert2.min.css" rel="stylesheet">
-    <link href="assets/lib/materialize-parallax/materialize-parallax.css" rel="stylesheet">
+    <link href="/assets/lib/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="/assets/lib/bootstrap-datetimepicker/css/bootstrap-datetimepicker.min.css" rel="stylesheet">
+    <link href="/assets/lib/owl-carousel/owl.css" rel="stylesheet">
+    <link href="/assets/lib/Swiper/css/swiper.min.css" rel="stylesheet">
+    <link href="/assets/lib/owl-carousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="/assets/lib/vegas/vegas.min.css" rel="stylesheet">
+    <link href="/assets/lib/Magnific-Popup/magnific-popup.css" rel="stylesheet">
+    <link href="/assets/lib/sweetalert/sweetalert2.min.css" rel="stylesheet">
+    <link href="/assets/lib/materialize-parallax/materialize-parallax.css" rel="stylesheet">
 
 
     <!-- Icon fonts -->
-    <link href="assets/fonts/fontawesome-all.min.css" rel="stylesheet">
-    <link href="assets/fonts/pe-icon-7-stroke.css" rel="stylesheet">
-    <link href="assets/fonts/et-line-font.css" rel="stylesheet">
+    <link href="/assets/fonts/fontawesome-all.min.css" rel="stylesheet">
+    <link href="/assets/fonts/pe-icon-7-stroke.css" rel="stylesheet">
+    <link href="/assets/fonts/et-line-font.css" rel="stylesheet">
 
     <!-- Template CSS -->
-    <link href="assets/css/animate.css" rel="stylesheet">
-    <link href="assets/css/main.css" rel="stylesheet">
-    <link href="assets/css/rgen-grids.css" rel="stylesheet">
-    <link href="assets/css/helper.css" rel="stylesheet">
-    <link href="assets/css/responsive.css" rel="stylesheet">
+    <link href="/assets/css/animate.css" rel="stylesheet">
+    <link href="/assets/css/main.css" rel="stylesheet">
+    <link href="/assets/css/rgen-grids.css" rel="stylesheet">
+    <link href="/assets/css/helper.css" rel="stylesheet">
+    <link href="/assets/css/responsive.css" rel="stylesheet">
 
     <!-- Theme color css -->
-    <link href="assets/css/themes/theme-06.css" rel="stylesheet">
-    <link href="assets/css/template-custom.css" rel="stylesheet">
+    <link href="/assets/css/themes/theme-06.css" rel="stylesheet">
+    <link href="/assets/css/template-custom.css" rel="stylesheet">
 
     <!-- Favicons -->
-    <link rel="icon" href="assets/images/favicons/favicon.png">
-    <link rel="apple-touch-icon" href="assets/images/favicons/apple-touch-icon.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="assets/images/favicons/apple-touch-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="assets/images/favicons/apple-touch-icon-114x114.png">
+    <link rel="icon" href="/assets/images/favicons/favicon.png">
+    <link rel="apple-touch-icon" href="/assets/images/favicons/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/assets/images/favicons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/assets/images/favicons/apple-touch-icon-114x114.png">
 
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
     <!--[if lt IE 9]>
@@ -78,7 +78,7 @@
 				<div class="col-md-3 pos-rel">
 					<a class="nav-handle" data-nav=".m-content" data-navopen="pe-7s-more" data-navclose="pe-7s-close"><i class="pe-7s-more"></i></a>
 					<div class="header-logo-wrp">
-						<a class="header-logo pd-tb-small" href="http://rgenesis.com"><img src="assets/images/logo1.png" alt="Brand logo"></a>
+						<a class="header-logo pd-tb-small" href="http://rgenesis.com"><img src="/assets/images/logo1.png" alt="Brand logo"></a>
 					</div>
 				</div><!-- // END : Column //  -->
 				
@@ -113,32 +113,32 @@
 	<!-- ************** END : Header **************  -->
 
 
-<script src="assets/js/webfonts.js" type="text/javascript"></script>
+<script src="/assets/js/webfonts.js" type="text/javascript"></script>
 
-<script src="assets/lib/jquery/jquery-3.3.1.min.js" type="text/javascript"></script>
-<script src="assets/lib/jquery/jquery-migrate-3.0.0.min.js" type="text/javascript"></script>
-<script src="assets/lib/jquery/popper.min.js" type="text/javascript"></script>
-<script src="assets/lib/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
-<script src="assets/lib/jquery-smooth-scroll/jquery.smooth-scroll.min.js" type="text/javascript"></script>
-<script src="assets/lib/jQuery-viewport-checker/jquery.viewportchecker.min.js" type="text/javascript"></script>
-<script src="assets/lib/Swiper/js/swiper.min.js" type="text/javascript"></script>
-<script src="assets/lib/owl-carousel/owl.js" type="text/javascript"></script>
-<script src="assets/lib/Magnific-Popup/jquery.magnific-popup.min.js" type="text/javascript"></script>
-<script src="assets/lib/isotope/imagesloaded.pkgd.min.js" type="text/javascript"></script>
-<script src="assets/lib/isotope/isotope.pkgd.min.js" type="text/javascript"></script>
-<script src="assets/lib/isotope/packery-mode.pkgd.min.js" type="text/javascript"></script>
-<script src="assets/lib/jQuery-Countdown/jquery-countdown.js" type="text/javascript"></script>
+<script src="/assets/lib/jquery/jquery-3.3.1.min.js" type="text/javascript"></script>
+<script src="/assets/lib/jquery/jquery-migrate-3.0.0.min.js" type="text/javascript"></script>
+<script src="/assets/lib/jquery/popper.min.js" type="text/javascript"></script>
+<script src="/assets/lib/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="/assets/lib/jquery-smooth-scroll/jquery.smooth-scroll.min.js" type="text/javascript"></script>
+<script src="/assets/lib/jQuery-viewport-checker/jquery.viewportchecker.min.js" type="text/javascript"></script>
+<script src="/assets/lib/Swiper/js/swiper.min.js" type="text/javascript"></script>
+<script src="/assets/lib/owl-carousel/owl.js" type="text/javascript"></script>
+<script src="/assets/lib/Magnific-Popup/jquery.magnific-popup.min.js" type="text/javascript"></script>
+<script src="/assets/lib/isotope/imagesloaded.pkgd.min.js" type="text/javascript"></script>
+<script src="/assets/lib/isotope/isotope.pkgd.min.js" type="text/javascript"></script>
+<script src="/assets/lib/isotope/packery-mode.pkgd.min.js" type="text/javascript"></script>
+<script src="/assets/lib/jQuery-Countdown/jquery-countdown.js" type="text/javascript"></script>
 
-<script src="assets/lib/sweetalert/sweetalert2.min.js" type="text/javascript"></script>
-<script src="assets/lib/jquery-validation/jquery.validate.min.js" type="text/javascript"></script>
-<script src="assets/lib/youtubebackground/jquery.youtubebackground.js" type="text/javascript"></script>
-<script src="assets/lib/Vide/jquery.vide.min.js" type="text/javascript"></script>
-<script src="assets/lib/vegas/vegas.min.js" type="text/javascript"></script>
-<script src="assets/lib/materialize-parallax/materialize-parallax.js" type="text/javascript"></script>
-<script src="assets/lib/countUp/countUp.js" type="text/javascript"></script>
-<script src="assets/lib/stellar/jquery.stellar.min.js" type="text/javascript"></script>
-<script src="assets/js/enquire.min.js" type="text/javascript"></script>
-<script src="assets/js/main.js"></script>
+<script src="/assets/lib/sweetalert/sweetalert2.min.js" type="text/javascript"></script>
+<script src="/assets/lib/jquery-validation/jquery.validate.min.js" type="text/javascript"></script>
+<script src="/assets/lib/youtubebackground/jquery.youtubebackground.js" type="text/javascript"></script>
+<script src="/assets/lib/Vide/jquery.vide.min.js" type="text/javascript"></script>
+<script src="/assets/lib/vegas/vegas.min.js" type="text/javascript"></script>
+<script src="/assets/lib/materialize-parallax/materialize-parallax.js" type="text/javascript"></script>
+<script src="/assets/lib/countUp/countUp.js" type="text/javascript"></script>
+<script src="/assets/lib/stellar/jquery.stellar.min.js" type="text/javascript"></script>
+<script src="/assets/js/enquire.min.js" type="text/javascript"></script>
+<script src="/assets/js/main.js"></script>
 
 </body>
 </html>

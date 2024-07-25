@@ -64,9 +64,9 @@
 			<!-- Overlay -->
 			<b data-bgholder="overlay" class="full-wh z3" data-bgcolor="rgba(45, 51, 69, 0.8)"></b>
 			<!-- Parallax image -->
-			<div data-bgholder="parallax" class="full-wh z2" data-parallax-img="images/bg25.jpg"></div>
+			<div data-bgholder="parallax" class="full-wh z2" data-parallax-img="/assets/images/bg25.jpg"></div>
 			<!-- Background image -->
-			<b data-bgholder="bg-img" data-bg="images/bg25.jpg" class="full-wh bg-cover bg-cc z1"></b>
+			<b data-bgholder="bg-img" data-bg="/assets/images/bg25.jpg" class="full-wh bg-cover bg-cc z1"></b>
 		</div>
 	</section>
 	<!-- ************** END : Counter section **************  -->
