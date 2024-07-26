@@ -4,10 +4,9 @@
 	************************************************************ -->
 	<section class="pd-tb-small bg-dark typo-light" data-rgen-sm="pd-tb-small align-c">
 		<div class="container small align-c">
-			<div class="w75 mr-auto mr-b-mini" data-animate-in="fadeIn">
-				<h2 class="title bold-1" data-rgen-sm="medium">Simple and easy process</h2>
-				<p class="title-sub f-2 small" data-rgen-sm="small">Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod
-				tempor incididunt ut laboreet dolore</p>
+			<div class="w75 mr-auto align-c" data-animate-in="fadeIn">
+				<h2 class="title" data-rgen-sm="small">Simple and easy process</h2>
+				<p class="title-sub" data-rgen-sm="small">Lorem ipsum dolor sitamet consectetur adipisicing elit ullamut consequatur repellendus amet nemo dignissimos possimus eius fugiat</p>	
 			</div>
 			<div class="row gt20 mb20">
 				<div class="col-md-4" data-animate-in="fadeInUp|0.1">

@@ -3,15 +3,14 @@
 	************************************************************
 	* Portfolio section
 	************************************************************ -->
-	<section class="pd-tb-small pt-0 pb-0" data-rgen-sm="pd-tb-medium" id="portfolio">
-		<!--
-		<div class="container">
+	<section class="pd-tb-small pt-6 pb-6 bg-dark" data-rgen-sm="pd-tb-medium" id="portfolio">
+		
+		<div class="container typo-light">
 			<div class="w75 mr-auto align-c" data-animate-in="fadeIn">
 				<h2 class="title" data-rgen-sm="small">Our Awesome Recent work</h2>
 				<p class="title-sub" data-rgen-sm="small">We take pride in delivering high-quality software solutions tailored to our clients' needs. Explore our projects below to see our expertise and creativity in action.</p>	
 			</div>
 		</div>
-		-->
 
 		<!--=================================
 		= Portfolio gallery

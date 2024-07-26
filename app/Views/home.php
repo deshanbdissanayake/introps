@@ -24,7 +24,7 @@
 					</div><!-- /.owl-carousel -->
 				</div><!-- /.carousel-widget -->
 
-				<a href="/Portfolio" class="btn btn-white bdr-2 small solid">OUR PORTFOLIO</a>
+				<a href="#" class="btn btn-white bdr-2 small solid">BOOK A MEETING</a>
 			</div>
 		</div><!-- // END : Container //  -->
 

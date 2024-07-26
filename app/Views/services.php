@@ -19,7 +19,7 @@
 				<a href="/Mobile"><i class="pe-7s-phone custom-icon-size title bold-n"></i><h3 class="title bold-n tiny mr-b-10">Mobile App<br>Development</h3></a>
 			</li>
 			<li>
-				<a href="/Web"><i class="pe-7s-browser custom-icon-size title bold-n"></i><h3 class="title bold-n tiny mr-b-10">Standalone<br>Applications</h3></a>
+				<a href="/Web"><i class="pe-7s-browser custom-icon-size title bold-n"></i><h3 class="title bold-n tiny mr-b-10">ERP<br>Solutions</h3></a>
 			</li>
 			<li>
 				<a href="/Web"><i class="pe-7s-note2 custom-icon-size title bold-n"></i><h3 class="title bold-n tiny mr-b-10">Office<br>Automation</h3></a>

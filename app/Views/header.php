@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	
 	<!--Webpage Title-->
-	<title><?= (isset($p_title)) ? $p_title : "Introps IT specializes in software, app, and web solutions. Let our skilled team craft immersive digital experiences." ?></title>
+	<title><?= (isset($p_title)) ? $p_title : "Introps IT - Global Enterprise Software Solution Provider." ?></title>
 	<!--Webpage Meta description-->
 	<meta name="description" content="<?= (isset($p_des)) ? $p_des : "Introps IT specializes in software, app, and web solutions. Let our skilled team craft immersive digital experiences." ?>" />
 	<!--Webpage Meta keywords-->
@@ -52,91 +52,79 @@
 	
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/light.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/light.min.css">
 
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
 
-
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
-
-
-
-
-	<!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
-	<!--[if lt IE 9]>
-	<script src="js/html5shiv.js"></script>
-	<script src="js/respond.min.js"></script>
-	<![endif]-->
-	<!--[if IE 9 ]><script src="js/ie-matchmedia.js"></script><![endif]-->
-	
 	<style>
-	
+
 		/* Container for the dropdown */
 		.dropdown {
-		  position: relative;
-		  display: inline-block;
+			position: relative;
+			display: inline-block;
 		}
 
 		/* Dropdown button */
 		.dropbtn {
-		  font-size: 16px;  
-		  border: none;
-		  outline: none;
-		  color: white;
-		  padding: 14px 16px;
-		  background-color: inherit;
-		  font-family: inherit;
-		  margin: 0;
-		  cursor: pointer;
+			font-size: 16px;  
+			border: none;
+			outline: none;
+			color: white;
+			padding: 14px 16px;
+			background-color: inherit;
+			font-family: inherit;
+			margin: 0;
+			cursor: pointer;
 		}
 
 		/* Dropdown toggle icon */
 		.dropbtn i {
-		  margin-left: 5px;
+			margin-left: 5px;
 		}
 
 		/* Dropdown content (hidden by default) */
 		.dropdown-content {
-		  display: none;
-		  position: absolute;
-		  background-color: #f9f9f9;
-		  min-width: 160px;
-		  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-		  z-index: 1;
-		  top: 100%; /* Aligns the top of the dropdown content just below the button */
-		  left: 0;   /* Aligns the left edge of the dropdown content with the left edge of the button */
+			display: none;
+			position: absolute;
+			background-color: #f9f9f9;
+			min-width: 160px;
+			box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+			z-index: 1;
+			top: 100%; /* Aligns the top of the dropdown content just below the button */
+			left: 0;   /* Aligns the left edge of the dropdown content with the left edge of the button */
 		}
 
 		/* Links inside the dropdown */
 		.dropdown-content a {
-		  float: none;
-		  color: black;
-		  padding: 12px 16px;
-		  text-decoration: none;
-		  display: block;
-		  text-align: left;
+			float: none;
+			color: black;
+			padding: 12px 16px;
+			text-decoration: none;
+			display: block;
+			text-align: left;
 		}
 
 		/* Change color of dropdown links on hover */
 		.dropdown-content a:hover {
-		  background-color: #ddd;
+			background-color: #ddd;
 		}
 
 		/* Show the dropdown menu on hover */
 		.dropdown:hover .dropdown-content {
-		  display: block;
+			display: block;
 		}
 
 		/* Change the background color of the dropdown button when the dropdown content is shown */
 		.dropdown:hover .dropbtn {
-		  background-color: #7a2d2c;
+			background-color: #7a2d2c;
 		}
 
 		.bg-glass {
 			background-color: #00000054;
-		 }
-		 
+			}
+			
 		.title-sub.small {
 			font-size: 0.9rem !important;
 		}
@@ -145,12 +133,12 @@
 			background: #fff;
 		} 
 		.title-sub {
-		  font-size: 1.2rem;
-		  margin-bottom: 2.5rem;
-		  font-weight: 300;
+			font-size: 1.2rem;
+			margin-bottom: 2.5rem;
+			font-weight: 300;
 		}
 		.fs16 {
-		  font-size: 0.9rem;
+			font-size: 0.9rem;
 		}
 		
 		.info2{
@@ -169,115 +157,86 @@
 			line-clamp: 5;
 			/*overflow: hidden;*/
 		}
-		
-		
-		
-	
-	   .mfp-fade.mfp-bg {
-		  opacity: 0;
-		  transition: all 0.5s ease-out; 
-	   }
-	   .mfp-fade.mfp-bg.mfp-ready {
-		  opacity: 0.8;
-	   }
-	   .mfp-fade.mfp-bg.mfp-removing {
-		  opacity: 0;
-	   }
-
-	   .mfp-fade.mfp-wrap .mfp-content {
-		  opacity: 0;
-		  transition: all 0.5s ease-out; 
-	   }
-	   .mfp-fade.mfp-wrap.mfp-ready .mfp-content {
-		  opacity: 1;
-	   }
-	   .mfp-fade.mfp-wrap.mfp-removing .mfp-content {
-		  opacity: 0;
-	   }
-	   /* Custom styles for the close button */
-	   .mfp-close {
-		  color: white !important;
-		  opacity: 1 !important;
-	   }
-	   
-	   
-	   
-	   .pric-sub{
-		   margin-bottom: 20px;
-	   }
-	   
-	   
-	   
-	   .custom-icon-size {
-    font-size: 4em; /* Adjust the size as needed */
-}
-
-
-.mt-custom{
-	margin-top: 100px;
-}
-
-
-
-
+		.mfp-fade.mfp-bg {
+			opacity: 0;
+			transition: all 0.5s ease-out; 
+		}
+		.mfp-fade.mfp-bg.mfp-ready {
+			opacity: 0.8;
+		}
+		.mfp-fade.mfp-bg.mfp-removing {
+			opacity: 0;
+		}
+		.mfp-fade.mfp-wrap .mfp-content {
+			opacity: 0;
+			transition: all 0.5s ease-out; 
+		}
+		.mfp-fade.mfp-wrap.mfp-ready .mfp-content {
+			opacity: 1;
+		}
+		.mfp-fade.mfp-wrap.mfp-removing .mfp-content {
+			opacity: 0;
+		}
+		/* Custom styles for the close button */
+		.mfp-close {
+			color: white !important;
+			opacity: 1 !important;
+		}
+		.pric-sub{
+			margin-bottom: 20px;
+		}
+		.custom-icon-size {
+			font-size: 4em; /* Adjust the size as needed */
+		}
+		.mt-custom{
+			margin-top: 100px;
+		}
 	</style> 
-
 
 	<style> 
-	/* custom css (desh(2024-07-26)) */
-	.pt-6{
-        padding-top: 5rem;
-    }
-    .pb-6{
-        padding-bottom: 5rem;
-    }
-	.pv-2{
-		padding-top: 1.5rem;
-    	padding-bottom: 1.5rem;
-	}
-
+		/* custom css (desh(2024-07-26)) */
+		.pt-6{
+			padding-top: 5rem;
+		}
+		.pb-6{
+			padding-bottom: 5rem;
+		}
+		.pv-2{
+			padding-top: 1.5rem;
+			padding-bottom: 1.5rem;
+		}
 	</style> 
 
-	
-	
 </head>
 
 <body>
 <div class="page-loader"><b class="spinner"></b></div>
 <div id="page" data-linkscroll='y'>
 
-	<!--
-	************************************************************
-	* Header
-	************************************************************ -->
 	<header class="main-head dark" data-glass="y" data-sticky="y">
     <div class="container pd-0 min-px-h100" data-rgen-sm="pd-lr-20 h-reset">
         <div class="row gt0 align-items-center head-row">
-            
-            <!--=================================
-            = Logo section
-            ==================================-->
+ 
             <div class="col-md-2 pos-rel">
                 <a class="nav-handle" data-nav=".m-content" data-navopen="pe-7s-more" data-navclose="pe-7s-close"><i class="pe-7s-more"></i></a>
                 <div class="header-logo-wrp">
-                    <a class="header-logo pd-tb-small" href="/Introps"><img src="/assets/images/introps/introps-white.png" alt="Brand logo"></a>  
+                    <a class="header-logo pd-tb-small" href="/#"><img src="/assets/images/introps/introps-white.png" alt="Brand logo"></a>  
                 </div> 
-            </div><!-- // END : Column //  -->
-            
-            <!--=================================
-            = Navigation links 
-            ==================================-->
+            </div>
+			
             <div class="col-md-10 align-r m-content">
                 <ul class="row gt20 justify-content-md-end mr-0 align-items-center">
                     <li class="col-md-auto">
                         <nav class="menu-wrp align-l">
                             <ul class="menu">
-                                <li class="menu-item"><a href="/Introps">Home</a></li>
+                                <li class="menu-item"><a href="/#">Home</a></li>
                                 <li class="menu-item dropdown">
                                     <a class="dropbtn" href="#services">Services <i class="fa fa-caret-down"></i></a>
                                     <div class="dropdown-content">
-                                        <a href="/Web">Web Development</a>
-                                        <a href="/Mobile">Mobile App Development</a>
+                                        <a href="/Services/erp">ERP Solutions</a>
+                                        <a href="/Services/web">Web Development</a>
+                                        <a href="/Services/mobile">Mobile App Development</a>
+                                        <a href="/Services/seo">SEO</a>
                                     </div>
                                 </li>
                                 <li class="menu-item dropdown">
@@ -348,7 +307,7 @@
 <script>
    $(document).ready(function() {
       // Check if the current URL is the specific page
-      if (window.location.href === 'https://invlanding.introps.com/Introps') {
+      if (window.location.href === 'https://invlanding.introps.com/#') {
          $.magnificPopup.open({
             items: {
                src: '#popup-content'

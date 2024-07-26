@@ -3,7 +3,6 @@
 
     <div class="row gt20 mb20 middle-md">
                 <div class="col-md-6">
-
                     <!--=================================
                     = Contact information
                     ==================================-->

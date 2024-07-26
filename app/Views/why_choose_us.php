@@ -4,7 +4,7 @@
 			<div class="col-md-4" data-animate-in="fadeInLeft">
 				<h2 class="title bold-1" data-rgen-sm="small">What makes us different ?</h2>
 				<hr class="px-w100 bdr-op-1 mr-tb-tiny" data-rgen-sm="mr-auto">
-				<p class="title-sub f-1 italic mini" data-rgen-sm="small">At Introps IT, our personalized approach and proven track record of 100+ successful projects set us apart. We prioritize understanding your unique needs to create bespoke solutions. Our commitment to innovation and continuous learning keeps you ahead in a rapidly evolving digital landscape. Partner with us for creativity, reliability, and technological excellence.</p>
+				<p class="title-sub f-1 italic mini text-justify" data-rgen-sm="small">At Introps IT, our personalized approach and proven track record of 100+ successful projects set us apart. We prioritize understanding your unique needs to create bespoke solutions. Our commitment to innovation and continuous learning keeps you ahead in a rapidly evolving digital landscape. Partner with us for creativity, reliability, and technological excellence.</p>
 			</div><!-- // END : column //  -->
 			
 			<div class="col-md-7 offset-md-1 d-flex align-items-end">
