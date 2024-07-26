@@ -1,11 +1,13 @@
 <style>
-	.pd-tb-mini{
-		padding-top: 2rem;
-    	padding-bottom: 2rem;
+	.title.tiny{
+		font-weight: 500 !important;
+	}
+	.custom-icon-size {
+		font-size: 3em;
 	}
 </style>
 
-<section class="pd-tb-mini bg-dark" data-animate-in="fadeIn" data-rgen-sm="pd-tb-small">
+<section class="pd-tb-mini bg-dark pv-2" data-animate-in="fadeIn" data-rgen-sm="pd-tb-small">
 	<div class="container align-c typo-light">
 
 		<ul class="inline-list gt-small size-small reset op-05">

@@ -13,16 +13,18 @@ class Home extends BaseController
 
         // Load and concatenate the views
         $output = view('header', $a);
-        $output .= view('introps/home');
-        $output .= view('introps/services');
-        $output .= view('introps/why_choose_us');
-        $output .= view('introps/our_work');
-        // $output .= view('introps/counter');
-        // $output .= view('introps/how_we_work');
-        // $output .= view('introps/process');  
-        // $output .= view('introps/customers_say');
-        // $output .= view('introps/faq');
-        $output .= view('introps/clients');
+        $output .= view('home');
+        $output .= view('services');
+        $output .= view('why_choose_us');
+        $output .= view('our_work');
+        $output .= view('blog/blog_home');
+        $output .= view('introps/counter');
+        $output .= view('contact');
+        //$output .= view('how_we_work');
+        //$output .= view('introps/process');  
+        //$output .= view('introps/customers_say');
+        //$output .= view('introps/faq');
+        $output .= view('clients');
         $output .= view('footer');
 
         // Return the concatenated views

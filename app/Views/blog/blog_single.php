@@ -11,7 +11,7 @@
 			
 			<div class="row gt20 mb20">
 				<div class="col-md-6 last-md offset-md-1">
-					<img src="/images/Blog1.jpg" alt="about">   <!-- was  800x600_9.jpg -->       
+					<img src="/assets/images/Blog1.jpg" alt="about">   <!-- was  800x600_9.jpg -->       
 				</div><!-- // END : column //  -->
 				
 				<div class="col-md-5">

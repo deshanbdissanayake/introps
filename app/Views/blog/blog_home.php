@@ -2,7 +2,7 @@
 	************************************************************
 	* Content section
 	************************************************************ -->
-	<section class="pos-rel pd-tb-medium" id="about" data-rgen-sm="pd-tb-small">
+	<section class="pos-rel pd-tb-medium pt-6 pb-6" id="about" data-rgen-sm="pd-tb-small">
 		<div class="container">
 			<div class="w75 mr-auto align-c" data-animate-in="fadeIn">
 				<h2 class="title" data-rgen-sm="small">Blog</h2>
@@ -24,7 +24,7 @@
 							</div><!-- info box -->
 							<div class="full-wh" data-bgcolor="rgba(45, 51, 69, 0.7)"></div>
 						</div>
-						<b class="bg-cc bg-cover full-wh img-wrp" data-bg="images/Blog1.jpg"></b>  <!-- was 800x600_11.jpg  -->
+						<b class="bg-cc bg-cover full-wh img-wrp" data-bg="assets/images/800x600_11.jpg"></b>  <!-- was 800x600_11.jpg  -->
 					</div><!-- / hover box -->
 				</div><!-- // END : column //  -->
 				
@@ -41,7 +41,7 @@
 							</div><!-- info box -->
 							<div class="full-wh" data-bgcolor="rgba(45, 51, 69, 0.7)"></div>
 						</div>
-						<b class="bg-cc bg-cover full-wh img-wrp" data-bg="images/Blog2.jpg"></b>  <!-- was 800x600_12.jpg -->
+						<b class="bg-cc bg-cover full-wh img-wrp" data-bg="assets/images/800x600_12.jpg"></b>  <!-- was 800x600_12.jpg -->
 					</div><!-- / hover box -->
 				</div><!-- // END : column //  -->
 				

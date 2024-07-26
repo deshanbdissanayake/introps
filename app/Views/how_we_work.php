@@ -2,7 +2,7 @@
     ************************************************************
     * Content section 64
     ************************************************************ -->
-    <section class="pos-rel pd-tb-medium" id="about" data-rgen-sm="pd-tb-small">
+    <section class="pos-rel pd-tb-medium pt-6 pb-6" id="about" data-rgen-sm="pd-tb-small">
         <div class="container">
             <div class="w75 mr-auto align-c mr-b-small">
                 <!-- <h2 class="title small f-1 bold-3" data-rgen-sm="small" data-animate-in="fadeInUp|0.1">How we work</h2> -->
@@ -12,7 +12,7 @@
 
             <div class="row gt20 mb20">
                 <div class="col-md-4" data-animate-in="fadeInUp|0.1">
-                    <img src="images/800x600_11.jpg" alt="image">
+                    <img src="assets/images/800x600_11.jpg" alt="image">
                     <div class="bg-gray pd-tiny">
                         <div class="info-obj img-t g20 small z2 pos-rel">
                             <div class="img txt-white -mr-t-60"><span class="iconwrp rd bg-dark"><i class="pe-7s-photo-gallery"></i></span></div>
@@ -25,7 +25,7 @@
                 </div><!-- // END : column //  -->
 
                 <div class="col-md-4" data-animate-in="fadeInUp|0.2">
-                    <img src="images/800x600_12.jpg" alt="image">
+                    <img src="assets/images/800x600_12.jpg" alt="image">
                     <div class="bg-gray pd-tiny">
                         <div class="info-obj img-t g20 small z2 pos-rel">
                             <div class="img txt-white -mr-t-60"><span class="iconwrp rd bg-dark"><i class="pe-7s-paint-bucket"></i></span></div>
@@ -38,7 +38,7 @@
                 </div><!-- // END : column //  -->
 
                 <div class="col-md-4" data-animate-in="fadeInUp|0.3">
-                    <img src="images/800x600_14.jpg" alt="image">
+                    <img src="assets/images/800x600_14.jpg" alt="image">
                     <div class="bg-gray pd-tiny">
                         <div class="info-obj img-t g20 small z2 pos-rel">
                             <div class="img txt-white -mr-t-60"><span class="iconwrp rd bg-dark"><i class="pe-7s-user"></i></span></div>
