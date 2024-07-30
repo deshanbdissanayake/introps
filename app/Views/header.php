@@ -17,38 +17,38 @@
 	
     
 	<!-- Lib CSS -->
-	<link href="assets/lib/bootstrap/css/bootstrap.css" rel="stylesheet">
-    <link href="assets/lib/bootstrap-datetimepicker/css/bootstrap-datetimepicker.min.css" rel="stylesheet">
-    <link href="assets/lib/owl-carousel/owl.css" rel="stylesheet">
-    <link href="assets/lib/Swiper/css/swiper.min.css" rel="stylesheet">
-    <link href="assets/lib/owl-carousel/assets/owl.carousel.min.css" rel="stylesheet">
-    <link href="assets/lib/vegas/vegas.min.css" rel="stylesheet">
-    <link href="assets/lib/Magnific-Popup/magnific-popup.css" rel="stylesheet">
-    <link href="assets/lib/sweetalert/sweetalert2.min.css" rel="stylesheet">
-    <link href="assets/lib/materialize-parallax/materialize-parallax.css" rel="stylesheet">
+	<link href="/assets/lib/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="/assets/lib/bootstrap-datetimepicker/css/bootstrap-datetimepicker.min.css" rel="stylesheet">
+    <link href="/assets/lib/owl-carousel/owl.css" rel="stylesheet">
+    <link href="/assets/lib/Swiper/css/swiper.min.css" rel="stylesheet">
+    <link href="/assets/lib/owl-carousel//assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="/assets/lib/vegas/vegas.min.css" rel="stylesheet">
+    <link href="/assets/lib/Magnific-Popup/magnific-popup.css" rel="stylesheet">
+    <link href="/assets/lib/sweetalert/sweetalert2.min.css" rel="stylesheet">
+    <link href="/assets/lib/materialize-parallax/materialize-parallax.css" rel="stylesheet">
 
 
 	<!-- Icon fonts -->
-    <link href="assets/fonts/fontawesome-all.min.css" rel="stylesheet">
-    <link href="assets/fonts/pe-icon-7-stroke.css" rel="stylesheet">
-    <link href="assets/fonts/et-line-font.css" rel="stylesheet">
+    <link href="/assets/fonts/fontawesome-all.min.css" rel="stylesheet">
+    <link href="/assets/fonts/pe-icon-7-stroke.css" rel="stylesheet">
+    <link href="/assets/fonts/et-line-font.css" rel="stylesheet">
 
     <!-- Template CSS -->
-    <link href="assets/css/animate.css" rel="stylesheet">
-    <link href="assets/css/main.css" rel="stylesheet">
-    <link href="assets/css/rgen-grids.css" rel="stylesheet">
-    <link href="assets/css/helper.css" rel="stylesheet">
-    <link href="assets/css/responsive.css" rel="stylesheet">
+    <link href="/assets/css/animate.css" rel="stylesheet">
+    <link href="/assets/css/main.css" rel="stylesheet">
+    <link href="/assets/css/rgen-grids.css" rel="stylesheet">
+    <link href="/assets/css/helper.css" rel="stylesheet">
+    <link href="/assets/css/responsive.css" rel="stylesheet">
 
     <!-- Theme color css -->
-    <link href="assets/css/themes/default.css" rel="stylesheet">
-    <link href="assets/css/template-custom.css" rel="stylesheet">
+    <link href="/assets/css/themes/default.css" rel="stylesheet">
+    <link href="/assets/css/template-custom.css" rel="stylesheet">
 
 	<!-- Favicons -->
 	<link rel="icon" href="/assets/images/introps-logo.png">
 	<link rel="apple-touch-icon" href="/assets/images/favicons/apple-touch-icon.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="/assets/images/favicons/apple-touch-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="/assets/images/favicons/apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="//assets/images/favicons/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="//assets/images/favicons/apple-touch-icon-114x114.png">
 	
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
@@ -233,36 +233,36 @@
                                 <li class="menu-item dropdown">
                                     <a class="dropbtn" href="#services">Services <i class="fa fa-caret-down"></i></a>
                                     <div class="dropdown-content">
-                                        <a href="/Services/erp">ERP Solutions</a>
-                                        <a href="/Services/web">Web Development</a>
-                                        <a href="/Services/mobile">Mobile App Development</a>
-                                        <a href="/Services/seo">SEO</a>
+                                        <a href="/services/erp">ERP Solutions</a>
+                                        <a href="/services/web">Web Development</a>
+                                        <a href="/services/mobile">Mobile App Development</a>
+                                        <a href="/services/seo">SEO</a>
                                     </div>
                                 </li>
                                 <li class="menu-item dropdown">
                                     <a class="dropbtn" href="#products">Products <i class="fa fa-caret-down"></i></a>
                                     <div class="dropdown-content">
-                                        <a href="/Invigo">Invigo</a>
-                                        <a href="/Irest">iRest</a>
-                                        <a href="/Isales">iSales</a>
+                                        <a href="/products/invigo">Invigo</a>
+                                        <a href="/products/irest">iRest</a>
+                                        <a href="/products/isales">iSales</a>
                                     </div> 
                                 </li>
                                 <li class="menu-item"><a href="/Portfolio">Portfolio</a></li>
                                 <li class="menu-item dropdown">
                                     <a class="dropbtn" href="/Introps_content/about">About us <i class="fa fa-caret-down"></i></a>
                                     <div class="dropdown-content">
-                                        <a href="/Introps_content/team">Team</a>
-                                        <a href="/Introps_content/careers">Careers</a>
-										<a href="/Introps_content/testimonials">Testimonials</a>
+                                        <a href="/introps/team">Team</a>
+                                        <a href="/introps/careers">Careers</a>
+										<a href="/introps/testimonials">Testimonials</a>
                                     </div>
                                 </li>
-                                <li class="menu-item"><a href="/Blog">Blog</a></li>
+                                <li class="menu-item"><a href="/blog">Blog</a></li>
                             </ul><!-- // END : Navigation links //  -->
                         </nav><!-- // END : Nav //  -->		
                     </li> 
 
                     <li class="col-md-auto" data-rgen-sm="pd-0 pd-t-10 align-c">
-                        <a href="/Introps_content" class="btn btn-white mini"><i class="far fa-envelope mr-r-4"></i> CONTACT US</a>
+                        <a href="/introps/contact" class="btn btn-white mini"><i class="far fa-envelope mr-r-4"></i> CONTACT US</a>
                     </li>
                 </ul>
 
@@ -277,32 +277,32 @@
 
 	<!-- ************** END : Header **************  -->
 	
-<script src="assets/js/webfonts.js" type="text/javascript"></script>
+<script src="/assets/js/webfonts.js" type="text/javascript"></script>
 
-<script src="assets/lib/jquery/jquery-3.3.1.min.js" type="text/javascript"></script>
-<script src="assets/lib/jquery/jquery-migrate-3.0.0.min.js" type="text/javascript"></script>
-<script src="assets/lib/jquery/popper.min.js" type="text/javascript"></script>
-<script src="assets/lib/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
-<script src="assets/lib/jquery-smooth-scroll/jquery.smooth-scroll.min.js" type="text/javascript"></script>
-<script src="assets/lib/jQuery-viewport-checker/jquery.viewportchecker.min.js" type="text/javascript"></script>
-<script src="assets/lib/Swiper/js/swiper.min.js" type="text/javascript"></script>
-<script src="assets/lib/owl-carousel/owl.js" type="text/javascript"></script>
-<script src="assets/lib/Magnific-Popup/jquery.magnific-popup.min.js" type="text/javascript"></script>
-<script src="assets/lib/isotope/imagesloaded.pkgd.min.js" type="text/javascript"></script>
-<script src="assets/lib/isotope/isotope.pkgd.min.js" type="text/javascript"></script>
-<script src="assets/lib/isotope/packery-mode.pkgd.min.js" type="text/javascript"></script>
-<script src="assets/lib/jQuery-Countdown/jquery-countdown.js" type="text/javascript"></script>
+<script src="/assets/lib/jquery/jquery-3.3.1.min.js" type="text/javascript"></script>
+<script src="/assets/lib/jquery/jquery-migrate-3.0.0.min.js" type="text/javascript"></script>
+<script src="/assets/lib/jquery/popper.min.js" type="text/javascript"></script>
+<script src="/assets/lib/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="/assets/lib/jquery-smooth-scroll/jquery.smooth-scroll.min.js" type="text/javascript"></script>
+<script src="/assets/lib/jQuery-viewport-checker/jquery.viewportchecker.min.js" type="text/javascript"></script>
+<script src="/assets/lib/Swiper/js/swiper.min.js" type="text/javascript"></script>
+<script src="/assets/lib/owl-carousel/owl.js" type="text/javascript"></script>
+<script src="/assets/lib/Magnific-Popup/jquery.magnific-popup.min.js" type="text/javascript"></script>
+<script src="/assets/lib/isotope/imagesloaded.pkgd.min.js" type="text/javascript"></script>
+<script src="/assets/lib/isotope/isotope.pkgd.min.js" type="text/javascript"></script>
+<script src="/assets/lib/isotope/packery-mode.pkgd.min.js" type="text/javascript"></script>
+<script src="/assets/lib/jQuery-Countdown/jquery-countdown.js" type="text/javascript"></script>
 
-<script src="assets/lib/sweetalert/sweetalert2.min.js" type="text/javascript"></script>
-<script src="assets/lib/jquery-validation/jquery.validate.min.js" type="text/javascript"></script>
-<script src="assets/lib/youtubebackground/jquery.youtubebackground.js" type="text/javascript"></script>
-<script src="assets/lib/Vide/jquery.vide.min.js" type="text/javascript"></script>
-<script src="assets/lib/vegas/vegas.min.js" type="text/javascript"></script>
-<script src="assets/lib/materialize-parallax/materialize-parallax.js" type="text/javascript"></script>
-<script src="assets/lib/countUp/countUp.js" type="text/javascript"></script>
-<script src="assets/lib/stellar/jquery.stellar.min.js" type="text/javascript"></script>
-<script src="assets/js/enquire.min.js" type="text/javascript"></script>
-<script src="assets/js/main.js"></script>
+<script src="/assets/lib/sweetalert/sweetalert2.min.js" type="text/javascript"></script>
+<script src="/assets/lib/jquery-validation/jquery.validate.min.js" type="text/javascript"></script>
+<script src="/assets/lib/youtubebackground/jquery.youtubebackground.js" type="text/javascript"></script>
+<script src="/assets/lib/Vide/jquery.vide.min.js" type="text/javascript"></script>
+<script src="/assets/lib/vegas/vegas.min.js" type="text/javascript"></script>
+<script src="/assets/lib/materialize-parallax/materialize-parallax.js" type="text/javascript"></script>
+<script src="/assets/lib/countUp/countUp.js" type="text/javascript"></script>
+<script src="/assets/lib/stellar/jquery.stellar.min.js" type="text/javascript"></script>
+<script src="/assets/js/enquire.min.js" type="text/javascript"></script>
+<script src="/assets/js/main.js"></script>
 
 <script>
    $(document).ready(function() {
