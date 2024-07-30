@@ -25,7 +25,7 @@
 							<div class="overlay flex-bl typo-light">
 								<div class="content mr-30 z2">
 									<!-- Pop-up Image and link -->
-									<a href="assets/images/introps/portfolio/home_1.jpg" class="inline-flex sq40 bg-primary flex-cc fs24 mr-b-20 pop-img"><i class="pe-7s-expand1"></i></a>
+									<a href="/assets/images/introps/portfolio/home_1.jpg" class="inline-flex sq40 bg-primary flex-cc fs24 mr-b-20 pop-img"><i class="pe-7s-expand1"></i></a>
 									<a href="#" target="_blank" class="inline-flex sq40 bg-primary flex-cc fs24 mr-b-20"><i class="pe-7s-exapnd2"></i></a>
 									
 									<!-- Text content -->
@@ -35,7 +35,7 @@
 								<b class="full-wh bg-dark op-09 z1 l0"></b>
 							</div>
 							<!-- Project image -->
-							<img src="assets/images/introps/portfolio/home_1.jpg" alt="image">
+							<img src="/assets/images/introps/portfolio/home_1.jpg" alt="image">
 						</div><!-- / hover box -->
 					</figure>
 				</div><!-- // END : Column //  -->
@@ -47,7 +47,7 @@
 							<div class="overlay flex-bl typo-light">
 								<div class="content mr-30 z2">
 									<!-- Pop-up Image and link -->
-									<a href="assets/images/introps/portfolio/home_2.jpg" class="inline-flex sq40 bg-primary flex-cc fs24 mr-b-20 pop-img"><i class="pe-7s-expand1"></i></a>
+									<a href="/assets/images/introps/portfolio/home_2.jpg" class="inline-flex sq40 bg-primary flex-cc fs24 mr-b-20 pop-img"><i class="pe-7s-expand1"></i></a>
 									<a href="#" target="_blank" class="inline-flex sq40 bg-primary flex-cc fs24 mr-b-20"><i class="pe-7s-exapnd2"></i></a>
 									
 									<!-- Text content -->
@@ -57,7 +57,7 @@
 								<b class="full-wh bg-dark op-09 z1 l0"></b>
 							</div>
 							<!-- Project image -->
-							<img src="assets/images/introps/portfolio/home_2.jpg" alt="image">
+							<img src="/assets/images/introps/portfolio/home_2.jpg" alt="image">
 						</div><!-- / hover box -->
 					</figure>
 					
@@ -70,7 +70,7 @@
 							<div class="overlay flex-bl typo-light">
 								<div class="content mr-30 z2">
 									<!-- Pop-up Image and link -->
-									<a href="assets/images/introps/portfolio/home_3.jpg" class="inline-flex sq40 bg-primary flex-cc fs24 mr-b-20 pop-img"><i class="pe-7s-expand1"></i></a>
+									<a href="/assets/images/introps/portfolio/home_3.jpg" class="inline-flex sq40 bg-primary flex-cc fs24 mr-b-20 pop-img"><i class="pe-7s-expand1"></i></a>
 									<a href="#" target="_blank" class="inline-flex sq40 bg-primary flex-cc fs24 mr-b-20"><i class="pe-7s-exapnd2"></i></a>
 									
 									<!-- Text content -->
@@ -80,7 +80,7 @@
 								<b class="full-wh bg-dark op-09 z1 l0"></b>
 							</div>
 							<!-- Project image -->
-							<img src="assets/images/introps/portfolio/home_3.jpg" alt="image">
+							<img src="/assets/images/introps/portfolio/home_3.jpg" alt="image">
 						</div><!-- / hover box -->
 					</figure>
 					
@@ -93,7 +93,7 @@
 							<div class="overlay flex-bl typo-light">
 								<div class="content mr-30 z2">
 									<!-- Pop-up Image and link -->
-									<a href="assets/images/introps/portfolio/home_4.jpg" class="inline-flex sq40 bg-primary flex-cc fs24 mr-b-20 pop-img"><i class="pe-7s-expand1"></i></a>
+									<a href="/assets/images/introps/portfolio/home_4.jpg" class="inline-flex sq40 bg-primary flex-cc fs24 mr-b-20 pop-img"><i class="pe-7s-expand1"></i></a>
 									<a href="#" target="_blank" class="inline-flex sq40 bg-primary flex-cc fs24 mr-b-20"><i class="pe-7s-exapnd2"></i></a>
 									
 									<!-- Text content -->
@@ -103,7 +103,7 @@
 								<b class="full-wh bg-dark op-09 z1 l0"></b>
 							</div>
 							<!-- Project image -->
-							<img src="assets/images/introps/portfolio/home_4.jpg" alt="image">
+							<img src="/assets/images/introps/portfolio/home_4.jpg" alt="image">
 						</div><!-- / hover box -->
 					</figure>
 					
@@ -116,7 +116,7 @@
 							<div class="overlay flex-bl typo-light">
 								<div class="content mr-30 z2">
 									<!-- Pop-up Image and link -->
-									<a href="assets/images/introps/portfolio/home_5.jpg" class="inline-flex sq40 bg-primary flex-cc fs24 mr-b-20 pop-img"><i class="pe-7s-expand1"></i></a>
+									<a href="/assets/images/introps/portfolio/home_5.jpg" class="inline-flex sq40 bg-primary flex-cc fs24 mr-b-20 pop-img"><i class="pe-7s-expand1"></i></a>
 									<a href="#" target="_blank" class="inline-flex sq40 bg-primary flex-cc fs24 mr-b-20"><i class="pe-7s-exapnd2"></i></a>
 									
 									<!-- Text content -->
@@ -126,7 +126,7 @@
 								<b class="full-wh bg-dark op-09 z1 l0"></b>
 							</div>
 							<!-- Project image -->
-							<img src="assets/images/introps/portfolio/home_5.jpg" alt="image">
+							<img src="/assets/images/introps/portfolio/home_5.jpg" alt="image">
 						</div><!-- / hover box -->
 					</figure>
 					
@@ -139,7 +139,7 @@
 							<div class="overlay flex-bl typo-light">
 								<div class="content mr-30 z2">
 									<!-- Pop-up Image and link -->
-									<a href="assets/images/introps/portfolio/home_6.jpg" class="inline-flex sq40 bg-primary flex-cc fs24 mr-b-20 pop-img"><i class="pe-7s-expand1"></i></a>
+									<a href="/assets/images/introps/portfolio/home_6.jpg" class="inline-flex sq40 bg-primary flex-cc fs24 mr-b-20 pop-img"><i class="pe-7s-expand1"></i></a>
 									<a href="#" target="_blank" class="inline-flex sq40 bg-primary flex-cc fs24 mr-b-20"><i class="pe-7s-exapnd2"></i></a>
 									
 									<!-- Text content -->
@@ -149,7 +149,7 @@
 								<b class="full-wh bg-dark op-09 z1 l0"></b>
 							</div>
 							<!-- Project image -->
-							<img src="assets/images/introps/portfolio/home_6.jpg" alt="image">
+							<img src="/assets/images/introps/portfolio/home_6.jpg" alt="image">
 						</div><!-- / hover box -->
 					</figure>
 					
@@ -162,7 +162,7 @@
 							<div class="overlay flex-bl typo-light">
 								<div class="content mr-30 z2">
 									<!-- Pop-up Image and link -->
-									<a href="assets/images/introps/portfolio/home_7.jpg" class="inline-flex sq40 bg-primary flex-cc fs24 mr-b-20 pop-img"><i class="pe-7s-expand1"></i></a>
+									<a href="/assets/images/introps/portfolio/home_7.jpg" class="inline-flex sq40 bg-primary flex-cc fs24 mr-b-20 pop-img"><i class="pe-7s-expand1"></i></a>
 									<a href="#" target="_blank" class="inline-flex sq40 bg-primary flex-cc fs24 mr-b-20"><i class="pe-7s-exapnd2"></i></a>
 									
 									<!-- Text content -->
@@ -172,7 +172,7 @@
 								<b class="full-wh bg-dark op-09 z1 l0"></b>
 							</div>
 							<!-- Project image -->
-							<img src="assets/images/introps/portfolio/home_7.jpg" alt="image">
+							<img src="/assets/images/introps/portfolio/home_7.jpg" alt="image">
 						</div><!-- / hover box -->
 					</figure>
 					

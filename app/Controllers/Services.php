@@ -11,10 +11,19 @@ class Services extends BaseController
         $a["p_des"] = "Invigo is a web-based invoicing and inventory management system that helps businesses streamline operations, manage stock in real-time, issue customizable invoices, and gain valuable insights with advanced reporting and analytics. Access your business data securely from anywhere with Invigo.";
         $a["p_key"] = "Invigo, web-based invoicing system, inventory management, stock management, customizable invoices, real-time stock updates, automated invoicing, sales reports, customer relationship management, CRM, cloud-based access, secure data, business automation, multi-currency support, tax reports, integration, customization, responsive design";
 
+        $b['title'] = 'WEB APPLICATION DEVELOPMENT';
+        $b['subtitle'] = 'Revolutionizing Your Web Application With INTROPS IT';
+        $b['image'] = '/assets/images/bg3.jpg';
+
         // Load and concatenate the views
         $output = view('header', $a);
-        $output .= view('home');
-        $output .= view('services/erp');
+        $output .= view('services/home', $b);
+        $output .= view('services/introduction');
+        $output .= view('services/our_work');
+        $output .= view('services/pricing');
+        $output .= view('services/clients');
+        $output .= view('services/get_started');
+        $output .= view('services/contact');
         $output .= view('footer');
 
         // Return the concatenated views

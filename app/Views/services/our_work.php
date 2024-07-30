@@ -1,0 +1,77 @@
+<section class="pos-rel pd-tb-small bg-gray pt-6 pb-6" data-rgen-sm="pd-tb-small" id="portfolio">
+    <div class="container" data-animate-in="fadeIn">
+        <div class="w75 mr-auto align-c">
+            <h2 class="title" data-rgen-sm="small">Our Awesome Recent Projects</h2>
+            <p class="title-sub" data-rgen-sm="small">Explore our latest web applications that showcase our commitment to innovation and quality.</p>	
+        </div>
+        
+        <div class="rw eq3 gt20 mb20 popgallery-widget">
+            
+            <div class="cl" data-animate-in="fadeInUp|0.1">
+                <figure class="hover-box1 mr-0">
+                    <div class="overlay flex-bl typo-light">
+                        <div class="content mr-30 z2">
+                            <!-- Pop-up Image and link -->
+                            <a href="/assets/images/mockup-01.jpg" class="inline-flex sq40 bg-primary flex-cc fs24 mr-b-20 pop-img"><i class="pe-7s-expand1"></i></a>
+                            <a href="https://goo.gl/ZMxnYs" target="_blank" class="inline-flex sq40 bg-primary flex-cc fs24 mr-b-20"><i class="pe-7s-link"></i></a>
+                            
+                            <!-- Text content -->
+                            <h3 class="title mini bold-n">Holy Crab</h3>
+                            <p class="mr-0 fs12 op-08">Lorem ipsum dolor sit amet consectetur</p>
+                        </div>
+                        <b class="full-wh bg-dark op-09 z1 l0"></b>
+                    </div>
+                    <!-- Project image -->
+                    <img src="/assets/images/mockup-01.jpg" alt="image">
+                </figure><!-- / hover box -->
+            </div>
+
+            <div class="cl" data-animate-in="fadeInUp|0.2">
+                <figure class="hover-box1 mr-0">
+                    <div class="overlay flex-bl typo-light">
+                        <div class="content mr-30 z2">
+                            <!-- Pop-up Image and link -->
+                            <a href="/assets/images/mockup-02.jpg" class="inline-flex sq40 bg-primary flex-cc fs24 mr-b-20 pop-img"><i class="pe-7s-expand1"></i></a>
+                            <a href="https://goo.gl/ZMxnYs" target="_blank" class="inline-flex sq40 bg-primary flex-cc fs24 mr-b-20"><i class="pe-7s-link"></i></a>
+                            
+                            <!-- Text content -->
+                            <h3 class="title mini bold-n">Fuel Station</h3>
+                            <p class="mr-0 fs12 op-08">Lorem ipsum dolor sit amet consectetur</p>
+                        </div>
+                        <b class="full-wh bg-dark op-09 z1 l0"></b>
+                    </div>
+                    <!-- Project image -->
+                    <img src="/assets/images/mockup-02.jpg" alt="image">
+                </figure><!-- / hover box -->
+            </div>
+
+            <div class="cl" data-animate-in="fadeInUp|0.3">
+                <figure class="hover-box1 mr-0">
+                    <div class="overlay flex-bl typo-light">
+                        <div class="content mr-30 z2">
+                            <!-- Pop-up Image and link -->
+                            <a href="/assets/images/mockup-03.jpg" class="inline-flex sq40 bg-primary flex-cc fs24 mr-b-20 pop-img"><i class="pe-7s-expand1"></i></a>
+                            <a href="https://goo.gl/ZMxnYs" target="_blank" class="inline-flex sq40 bg-primary flex-cc fs24 mr-b-20"><i class="pe-7s-link"></i></a>
+                            
+                            <!-- Text content -->
+                            <h3 class="title mini bold-n">Muveo</h3>
+                            <p class="mr-0 fs12 op-08">Lorem ipsum dolor sit amet consectetur</p>
+                        </div>
+                        <b class="full-wh bg-dark op-09 z1 l0"></b>
+                    </div>
+                    <!-- Project image -->
+                    <img src="/assets/images/mockup-03.jpg" alt="image">
+                </figure><!-- / hover box -->
+            </div>
+
+        </div>
+    </div>
+    <div class="bg-holder full-wh z0">
+        <!-- Overlay -->
+        <b data-bgholder="overlay" class="full-wh z5" data-bgcolor="rgba(45, 51, 69, 0)"></b>
+        <!-- Parallax image -->
+        <div data-bgholder="parallax" class="full-wh z2"></div>
+        <!-- Background image -->
+        <b data-bgholder="bg-img" class="full-wh bg-cover bg-cc z1"></b>
+    </div>
+</section>
