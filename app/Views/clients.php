@@ -5,8 +5,8 @@
 	.grayscale{
 		filter: grayscale(100%);
 	}
-	img {
-		max-width: 85% !important;
+	.client_logo {
+		max-width: 80% !important;
 	}
 </style>
 

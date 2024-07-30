@@ -25,12 +25,13 @@
 				<div class="col-md-8">
 					<div class="row gt20 mb20">
 						<div class="col-md-4">
-							<h3 class="title tiny">Product</h3>
+							<h3 class="title tiny">Our Services</h3>
 							<ul class="list-1 txt-white op-05">
-								<li><a href="#">Features</a></li>
-								<li><a href="#">Discover</a></li>
-								<li><a href="#">Templates</a></li>
-								<li><a href="#">Plan and Pricing</a></li>
+								<li><a href="#">Web Development</a></li>
+								<li><a href="#">Mobile App Development</a></li>
+								<li><a href="#">ERP solutions</a></li>
+								<li><a href="#">IT Consulting</a></li>
+								<li><a href="#">Search Engine Optimization</a></li>
 							</ul>
 						</div><!-- // END : column //  -->
 						
@@ -38,8 +39,6 @@
 							<h3 class="title tiny">Help and Support</h3>
 							<ul class="list-1 txt-white op-05">
 								<li><a href="#">How to Use</a></li>
-								<li><a href="#">Forums</a></li>
-								<li><a href="#">Help Center</a></li>
 								<li><a href="#">Contact Us</a></li>
 							</ul>
 						</div><!-- // END : column //  -->
