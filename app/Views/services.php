@@ -5,12 +5,15 @@
 	.custom-icon-size {
 		font-size: 3em;
 	}
+	.op-60{
+		opacity: 0.60;
+	}
 </style>
 
 <section class="pd-tb-mini bg-dark pv-2" data-animate-in="fadeIn" data-rgen-sm="pd-tb-small">
 	<div class="container align-c typo-light">
 
-		<ul class="inline-list gt-small size-small reset op-05">
+		<ul class="inline-list gt-small size-small reset op-60">
 			
 			<li>
 				<a href="/Web"><i class="pe-7s-global custom-icon-size title bold-n"></i><h3 class="title bold-n tiny mr-b-10">Web<br>Development</h3></a>

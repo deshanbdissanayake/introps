@@ -5,8 +5,8 @@
 	<section class="pos-rel pd-tb-medium pt-6 pb-6" id="about" data-rgen-sm="pd-tb-small">
 		<div class="container">
 			<div class="w75 mr-auto align-c" data-animate-in="fadeIn">
-				<h2 class="title" data-rgen-sm="small">Blog</h2>
-				<p class="title-sub" data-rgen-sm="small">Lorem ipsum dolor sitamet consectetur adipisicing elit ullamut consequatur repellendus amet nemo dignissimos possimus eius fugiat</p>	
+				<h2 class="title" data-rgen-sm="small">Insights and Updates</h2>
+				<p class="title-sub" data-rgen-sm="small">Stay informed with the latest industry news, expert insights, and updates from our team. Dive into our blog to discover valuable content and trends in software development.</p>	
 			</div>
 
 			<div class="row gt20 mb20">

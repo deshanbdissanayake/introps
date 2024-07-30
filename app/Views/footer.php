@@ -5,9 +5,12 @@
 	<footer class="pos-rel pd-tb-small bg-dark" data-rgen-sm="pd-tb-small">
 		<div class="container typo-light" data-rgen-sm="align-c">
 			<div class="row gt20 mb20">
-				<div class="col-md-5">
-					<p><a href="#" class="inline-block max-px-w150"><img src="/assets/images/logo1.png" class="max-px-w140" alt="logo"></a></p>
-					<p>NO: 54 (1st Floor), Katugastota Road,<br>Kandy, 20000</p> 
+				<div class="col-md-4">
+					<p><a href="#" class="inline-block max-px-w150"><img src="/assets/images/introps/introps-white.png" class="max-px-w140" alt="logo"></a></p>
+					<p>NO: 54 (1st Floor),<br>Katugastota Road,<br>Kandy, Sri Lanka, 20000</p> 
+					<p><strong>Phone:</strong> +94 71 1500 200<br>
+					<strong>Land Line:</strong> +94 81 2225 866<br>
+					<strong>Email:</strong> info@introps.com</p> 
 					
 					<!--=========================================
 					=  Social links
@@ -19,7 +22,7 @@
 					<a href="#" target="_blank" class="sq30 fs16 mr-r-4 rd-4 iconbox btn-white"><i class="fab fa-tumblr"></i></a>
 				</div><!-- // END : Column //  -->
 				
-				<div class="col-md-7">
+				<div class="col-md-8">
 					<div class="row gt20 mb20">
 						<div class="col-md-4">
 							<h3 class="title tiny">Product</h3>
