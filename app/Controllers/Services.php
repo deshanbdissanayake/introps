@@ -9,8 +9,17 @@ class Services extends Controller
 {
     public function index(): string
     {
-        $serviceId = $this->request->getGet('s');
+        // Load and concatenate the views
+        $output = view('header');
+        $output .= view('services/contact');
+        $output .= view('footer');
 
+        // Return the concatenated views
+        return $output;
+    }
+
+    public function service($serviceId): string
+    {
         // Load the model
         $servicesModel = new Services_m();
         $data = $servicesModel->getServiceByServiceId($serviceId);
@@ -28,9 +37,7 @@ class Services extends Controller
         $output .= view('services/introduction', $data['intro']);
         $output .= view('services/our_work', $data['work']);
         $output .= view('services/pricing', $data['pricing']);
-        //$output .= view('services/clients');
-        //$output .= view('services/get_started');
-        //$output .= view('services/common/contact');
+        $output .= view('services/contact');
         $output .= view('footer');
 
         // Return the concatenated views

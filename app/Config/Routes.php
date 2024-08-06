@@ -8,6 +8,8 @@ use CodeIgniter\Router\RouteCollection;
 
 // Services Routes
 $routes->get('/services', 'Services::index');
+$routes->get('services/srv/(:num)', 'Services::service/$1');
+
 
 // Contact Routes
 $routes->get('/contact', 'Contact::index');
