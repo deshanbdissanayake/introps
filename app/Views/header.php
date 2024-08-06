@@ -233,10 +233,12 @@
                                 <li class="menu-item dropdown">
                                     <a class="dropbtn" href="#services">Services <i class="fa fa-caret-down"></i></a>
                                     <div class="dropdown-content">
-                                        <a href="/services/erp">ERP Solutions</a>
                                         <a href="/services/web">Web Development</a>
                                         <a href="/services/mobile">Mobile App Development</a>
-                                        <a href="/services/seo">SEO</a>
+                                        <a href="/services/erp">ERP Solutions</a>
+                                        <a href="/services/office_automation">Office Automation</a>
+                                        <a href="/services/ai">AI Development</a>
+                                        <a href="/services/seo">Search Engine Optimization</a>
                                     </div>
                                 </li>
                                 <li class="menu-item dropdown">

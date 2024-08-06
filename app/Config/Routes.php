@@ -7,10 +7,10 @@ use CodeIgniter\Router\RouteCollection;
  */
 
 // Services Routes
-$routes->get('/services/erp', 'Services::erp');
-$routes->get('/services/web', 'Services::web');
-$routes->get('/services/mobile', 'Services::mobile');
-$routes->get('/services/seo', 'Services::seo');
+$routes->get('/services', 'Services::index');
+
+// Contact Routes
+$routes->get('/contact', 'Contact::index');
 
 // Products Routes
 $routes->get('/products/invigo', 'Products::invigo');
