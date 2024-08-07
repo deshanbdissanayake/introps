@@ -6,7 +6,7 @@ use CodeIgniter\Model;
 
 class Services_m extends Model
 {
-    public function getAllServices(){
+    public function getAllData(){
         
     }
 
