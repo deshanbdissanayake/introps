@@ -39,6 +39,24 @@ class CreateTableServices extends Migration
                 'type' => 'TEXT',
                 'null' => true,
             ],
+            's_work_title' => [
+                'type' => 'VARCHAR',
+                'constraint' => 250,
+                'null' => false,
+            ],
+            's_work_desc' => [
+                'type' => 'TEXT',
+                'null' => true,
+            ],
+            's_pricing_title' => [
+                'type' => 'VARCHAR',
+                'constraint' => 250,
+                'null' => false,
+            ],
+            's_pricing_desc' => [
+                'type' => 'TEXT',
+                'null' => true,
+            ],
             'status' => [
                 'type' => 'VARCHAR',
                 'constraint' => 11,

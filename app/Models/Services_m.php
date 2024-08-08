@@ -18,20 +18,30 @@ class Services_m extends Model
             'p_key' => "Invigo, web-based invoicing system, inventory management, stock management, customizable invoices, real-time stock updates, automated invoicing, sales reports, customer relationship management, CRM, cloud-based access, secure data, business automation, multi-currency support, tax reports, integration, customization, responsive design"
         ];
 
+        $builder = $this->db->table('services');
+        $service = $builder->select('*')->where('s_id', $s_id)->get()->getRow();
+
+        $builder2 = $this->db->table('portfolio');
+        $portfolio = $builder2->select('*')->where('ref_type', 'services')->where('ref_no', $s_id)->get()->getResult();
+
+        // Print the result and exit
+        print_r($portfolio);
+        exit;
+
         $data['home'] = [
-            'title' => 'WEB APPLICATION DEVELOPMENT',
-            'subtitle' => 'Revolutionizing Your Web Application With INTROPS IT',
-            'bgimage' => '/assets/images/bg3.jpg'
+            'title' => $service->s_title,
+            'subtitle' => $service->s_subtitle,
+            'bgimage' => $service->s_bgimage
         ];
 
         $data['intro'] = [
-            'title' => 'Exelence',
-            'desc' => "Introps IT is your steadfast partner in web development. With a dedication to excellence, we're renowned for innovation in digital realms. Crafting unique experiences is our forte, be it web apps, e-commerce, or mobile solutions. Trust, client-focus, and success drive us. Let's navigate the digital landscape together, turning your vision into reality."
+            'title' => $service->s_intro_title,
+            'desc' => $service->s_intro_desc
         ];
 
         $data['work'] = [
-            'title' => 'Our Awesome Recent Projects',
-            'subtitle' => 'Explore our latest web applications that showcase our commitment to innovation and quality.',
+            'title' => $service->s_work_title,
+            'subtitle' => $service->s_work_desc,
             'prev_work' => [
                 [
                     'image_path' => '/assets/images/mockup-01.jpg',
@@ -74,8 +84,8 @@ class Services_m extends Model
         ];
         
         $data['pricing'] = [
-            'title' => 'Simple Pricing',
-            'subtitle' => "We offer three straightforward packages designed to meet varying needs and budgets. Whether you're a startup or an enterprise, find the perfect plan that aligns with your goals.",
+            'title' => $service->s_pricing_title,
+            'subtitle' => $service->s_pricing_desc,
             'packages' => [
                 [
                     'package_id' => '1',

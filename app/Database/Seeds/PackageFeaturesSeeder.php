@@ -19,7 +19,7 @@ class PackageFeaturesSeeder extends Seeder
             [
                 'pkg_id' => 2,
                 'pf_desc' => 'Feature 2 description',
-                'pf_type' => 'unique',
+                'pf_type' => 'main',
                 'status' => 'active',
                 'c_date' => date('Y-m-d H:i:s'),
             ],
