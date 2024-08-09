@@ -24,6 +24,7 @@ class CreateTableTags extends Migration
                 'type' => 'VARCHAR',
                 'constraint' => 11,
                 'default' => 'active',
+                'comment' => 'active/delete',
             ],
         ]);
         $this->forge->addKey('tag_id', true);

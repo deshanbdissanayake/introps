@@ -19,206 +19,45 @@ class Services_m extends Model
         ];
 
         $builder = $this->db->table('services');
-        $service = $builder->select('*')->where('s_id', $s_id)->get()->getRow();
+        $service = $builder->select('*')->where('s_id', $s_id)->where('status', 'active')->get()->getRow();
 
-        $builder2 = $this->db->table('portfolio');
-        $portfolio = $builder2->select('*')->where('ref_type', 'services')->where('ref_no', $s_id)->get()->getResult();
-
-        // Print the result and exit
-        print_r($portfolio);
-        exit;
-
-        $data['home'] = [
-            'title' => $service->s_title,
-            'subtitle' => $service->s_subtitle,
-            'bgimage' => $service->s_bgimage
-        ];
-
-        $data['intro'] = [
-            'title' => $service->s_intro_title,
-            'desc' => $service->s_intro_desc
-        ];
-
-        $data['work'] = [
-            'title' => $service->s_work_title,
-            'subtitle' => $service->s_work_desc,
-            'prev_work' => [
-                [
-                    'image_path' => '/assets/images/mockup-01.jpg',
-                    'project_path' => 'https://goo.gl/ZMxnYs',
-                    'title' => 'Holy Crab Delivery',
-                    'subtitle' => 'Lorem ipsum dolor sit amet consectetur'
-                ],
-                [
-                    'image_path' => '/assets/images/mockup-02.jpg',
-                    'project_path' => 'https://goo.gl/ZMxnYs',
-                    'title' => 'Holy Crab Delivery',
-                    'subtitle' => 'Lorem ipsum dolor sit amet consectetur'
-                ],
-                [
-                    'image_path' => '/assets/images/mockup-03.jpg',
-                    'project_path' => 'https://goo.gl/ZMxnYs',
-                    'title' => 'Holy Crab Delivery',
-                    'subtitle' => 'Lorem ipsum dolor sit amet consectetur'
-                ],
-                [
-                    'image_path' => '/assets/images/mockup-04.jpg',
-                    'project_path' => 'https://goo.gl/ZMxnYs',
-                    'title' => 'Holy Crab Delivery',
-                    'subtitle' => 'Lorem ipsum dolor sit amet consectetur'
-                ],
-                [
-                    'image_path' => '/assets/images/mockup-05.jpg',
-                    'project_path' => 'https://goo.gl/ZMxnYs',
-                    'title' => 'Holy Crab Delivery',
-                    'subtitle' => 'Lorem ipsum dolor sit amet consectetur'
-                ],
-                [
-                    'image_path' => '/assets/images/mockup-06.jpg',
-                    'project_path' => 'https://goo.gl/ZMxnYs',
-                    'title' => 'Holy Crab Delivery',
-                    'subtitle' => 'Lorem ipsum dolor sit amet consectetur'
-                ]
-            ]
+        if($service){
+            $builder2 = $this->db->table('portfolio');
+            $portfolio = $builder2->select('*')->where('ref_type', 'services')->where('ref_no', $s_id)->where('status', 'active')->get()->getResult();
+    
+            $builder3 = $this->db->table('packages');
+            $packages = $builder3->select('*')->where('ref_type', 'services')->where('ref_no', $s_id)->where('status', 'active')->get()->getResult();
+    
+            foreach($packages as $package){
+                $builder4 = $this->db->table('package_features');
+                $package->features = $builder4->select('*')->where('pkg_id', $package->pkg_id)->where('status', 'active')->get()->getResult();
+            }
+    
+            $data['home'] = [
+                'title' => $service->s_title,
+                'subtitle' => $service->s_subtitle,
+                'bgimage' => $service->s_bgimage
+            ];
+    
+            $data['intro'] = [
+                'title' => $service->s_intro_title,
+                'desc' => $service->s_intro_desc
+            ];
+    
+            $data['work'] = [
+                'title' => $service->s_work_title,
+                'subtitle' => $service->s_work_desc,
+                'prev_work' => $portfolio
+                
+            ];
             
-        ];
+            $data['pricing'] = [
+                'title' => $service->s_pricing_title,
+                'subtitle' => $service->s_pricing_desc,
+                'packages' => $packages
+            ];
+        }
         
-        $data['pricing'] = [
-            'title' => $service->s_pricing_title,
-            'subtitle' => $service->s_pricing_desc,
-            'packages' => [
-                [
-                    'package_id' => '1',
-                    'package_name' => 'Starter',
-                    'package_price' => '27000',
-                    'package_fav' => '0',
-                    'features' => [
-                        [
-                            'f_id' => '1',
-                            'f_desc' => 'Upto 3 Web pages', 
-                            'f_type' => 'main' //main & common
-                        ],
-                        [
-                            'f_id' => '2',
-                            'f_desc' => 'Google Maps', 
-                            'f_type' => 'main' //main & common
-                        ],
-                        [
-                            'f_id' => '3',
-                            'f_desc' => 'WhatsApp integration', 
-                            'f_type' => 'main' //main & common
-                        ],
-                        [
-                            'f_id' => '4',
-                            'f_desc' => '2 social media post', 
-                            'f_type' => 'main' //main & common
-                        ],
-                        [
-                            'f_id' => '5',
-                            'f_desc' => 'Server/ Hosting Free', 
-                            'f_type' => 'common' //main & common
-                        ],
-                        [
-                            'f_id' => '6',
-                            'f_desc' => 'SSL Certificate Free', 
-                            'f_type' => 'common' //main & common
-                        ],
-                        [
-                            'f_id' => '7',
-                            'f_desc' => 'Domain for 1 year Free', 
-                            'f_type' => 'common' //main & common
-                        ],
-                    ],
-                ],
-                [
-                    'package_id' => '2',
-                    'package_name' => 'Standard',
-                    'package_price' => '38000',
-                    'package_fav' => '1',
-                    'features' => [
-                        [
-                            'f_id' => '1',
-                            'f_desc' => 'Upto 3 Web pages', 
-                            'f_type' => 'main' //main & common
-                        ],
-                        [
-                            'f_id' => '2',
-                            'f_desc' => 'Google Maps', 
-                            'f_type' => 'main' //main & common
-                        ],
-                        [
-                            'f_id' => '3',
-                            'f_desc' => 'WhatsApp integration', 
-                            'f_type' => 'main' //main & common
-                        ],
-                        [
-                            'f_id' => '4',
-                            'f_desc' => '2 social media post', 
-                            'f_type' => 'main' //main & common
-                        ],
-                        [
-                            'f_id' => '5',
-                            'f_desc' => 'Server/ Hosting Free', 
-                            'f_type' => 'common' //main & common
-                        ],
-                        [
-                            'f_id' => '6',
-                            'f_desc' => 'SSL Certificate Free', 
-                            'f_type' => 'common' //main & common
-                        ],
-                        [
-                            'f_id' => '7',
-                            'f_desc' => 'Domain for 1 year Free', 
-                            'f_type' => 'common' //main & common
-                        ],
-                    ],
-                ],
-                [
-                    'package_id' => '1',
-                    'package_name' => 'Premium',
-                    'package_price' => 'Custom',
-                    'package_fav' => '0',
-                    'features' => [
-                        [
-                            'f_id' => '1',
-                            'f_desc' => 'Upto 3 Web pages', 
-                            'f_type' => 'main' //main & common
-                        ],
-                        [
-                            'f_id' => '2',
-                            'f_desc' => 'Google Maps', 
-                            'f_type' => 'main' //main & common
-                        ],
-                        [
-                            'f_id' => '3',
-                            'f_desc' => 'WhatsApp integration', 
-                            'f_type' => 'main' //main & common
-                        ],
-                        [
-                            'f_id' => '4',
-                            'f_desc' => '2 social media post', 
-                            'f_type' => 'main' //main & common
-                        ],
-                        [
-                            'f_id' => '5',
-                            'f_desc' => 'Server/ Hosting Free', 
-                            'f_type' => 'common' //main & common
-                        ],
-                        [
-                            'f_id' => '6',
-                            'f_desc' => 'SSL Certificate Free', 
-                            'f_type' => 'common' //main & common
-                        ],
-                        [
-                            'f_id' => '7',
-                            'f_desc' => 'Domain for 1 year Free', 
-                            'f_type' => 'common' //main & common
-                        ],
-                    ],
-                ],
-            ]
-        ];
-
         return $data;
     }
 }

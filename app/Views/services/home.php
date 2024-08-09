@@ -16,7 +16,7 @@
             <div class="bgslider full-wh"></div>
         </div>
         <!-- Parallax image -->
-        <div data-bgholder="parallax" class="full-wh z2" data-parallax-img="<?=$bgimage?>"></div>
+        <div data-bgholder="parallax" class="full-wh z2" data-parallax-img="<?= base_url($bgimage) ?>"></div>
         <!-- Background image -->
         <b data-bgholder="bg-img" class="full-wh bg-cover bg-cc z1"></b>
     </div>

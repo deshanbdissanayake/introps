@@ -37,7 +37,7 @@ class Services extends Controller
         $output .= view('services/introduction', $data['intro']);
         $output .= view('services/our_work', $data['work']);
         $output .= view('services/pricing', $data['pricing']);
-        $output .= view('services/contact');
+        //$output .= view('services/contact');
         $output .= view('footer');
 
         // Return the concatenated views

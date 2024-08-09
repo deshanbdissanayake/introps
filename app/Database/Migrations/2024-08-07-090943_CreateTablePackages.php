@@ -41,11 +41,13 @@ class CreateTablePackages extends Migration
             'pkg_fav' => [
                 'type' => 'BOOLEAN',
                 'default' => false,
+                'comment' => 'recommended package',
             ],
             'status' => [
                 'type' => 'VARCHAR',
                 'constraint' => 11,
                 'default' => 'active',
+                'comment' => 'active/delete',
             ],
             'c_date' => [
                 'type' => 'DATETIME',

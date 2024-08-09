@@ -31,6 +31,7 @@ class CreateTablePortfolioTags extends Migration
                 'type' => 'VARCHAR',
                 'constraint' => 11,
                 'default' => 'active',
+                'comment' => 'active/delete',
             ],
         ]);
         $this->forge->addKey('pt_id', true);

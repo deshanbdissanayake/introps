@@ -29,11 +29,13 @@ class CreateTablePackageFeatures extends Migration
                 'type' => 'VARCHAR', 
                 'constraint' => 11,
                 'default' => 'common',
+                'comment' => 'common/main',
             ],
             'status' => [
                 'type' => 'VARCHAR',
                 'constraint' => 11,
                 'default' => 'active',
+                'comment' => 'active/delete',
             ],
             'c_date' => [
                 'type' => 'DATETIME',

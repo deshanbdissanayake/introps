@@ -48,6 +48,7 @@ class CreateTablePortfolio extends Migration
                 'type' => 'VARCHAR',
                 'constraint' => 11,
                 'default' => 'active',
+                'comment' => 'active/delete',
             ],
             'c_date' => [
                 'type' => 'DATETIME',
