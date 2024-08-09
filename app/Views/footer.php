@@ -1,3 +1,10 @@
+<?php
+
+	$serviceModel = model('App\Models\Services_m');
+	$services = $serviceModel->getAllServices();
+
+?>
+
 <!--
 	************************************************************
 	* Footer section
@@ -27,11 +34,12 @@
 						<div class="col-md-4">
 							<h3 class="title tiny">Our Services</h3>
 							<ul class="list-1 txt-white op-05">
-								<li><a href="#">Web Development</a></li>
-								<li><a href="#">Mobile App Development</a></li>
-								<li><a href="#">ERP solutions</a></li>
-								<li><a href="#">IT Consulting</a></li>
-								<li><a href="#">Search Engine Optimization</a></li>
+								<?php
+									foreach ($services as $service) {
+										$url = base_url('services/srv/' . $service->s_id);
+										echo '<li><a href="' . $url . '">' . esc($service->s_title) . '</a></li>';
+									}
+								?>
 							</ul>
 						</div><!-- // END : column //  -->
 						

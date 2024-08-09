@@ -26,8 +26,7 @@ class CreateTableServices extends Migration
                 'null' => false,
             ],
             's_bgimage' => [
-                'type' => 'VARCHAR',
-                'constraint' => 100,
+                'type' => 'TEXT',
                 'null' => false,
             ],
             's_intro_title' => [
@@ -47,6 +46,10 @@ class CreateTableServices extends Migration
             's_work_desc' => [
                 'type' => 'TEXT',
                 'null' => true,
+            ],
+            'show_price' => [
+                'type' => 'BOOLEAN',
+                'default' => true,
             ],
             's_pricing_title' => [
                 'type' => 'VARCHAR',
