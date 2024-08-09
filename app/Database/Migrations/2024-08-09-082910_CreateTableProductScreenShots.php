@@ -4,15 +4,15 @@ namespace App\Database\Migrations;
 
 use CodeIgniter\Database\Migration;
 
-class CreateTableProductFeatures extends Migration
+class CreateTableProductScreenShots extends Migration
 {
     public function up()
     {
-        $this->forge->
+        //
     }
 
     public function down()
     {
-        $this->forge->dropTable('product_features');
+        //
     }
 }

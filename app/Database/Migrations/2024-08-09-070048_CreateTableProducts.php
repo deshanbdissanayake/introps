@@ -58,7 +58,11 @@ class CreateTableProducts extends Migration
                 'type' => 'BOOLEAN',
                 'default' => true,
             ],
-            'pricing_title' => [],
+            'pricing_title' => [
+                'type' => 'VARCHAR',
+                'constraint' => 250,
+                'null' => false,
+            ],
             'pricing_desc' => [
                 'type' => 'TEXT',
                 'null' => true,
