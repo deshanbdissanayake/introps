@@ -31,8 +31,10 @@ class Services_m extends Model
     
             $packages = $this->db->table('packages')->select('*')->where('ref_type', 'services')->where('ref_no', $s_id)->where('status', 'active')->get()->getResult();
     
-            foreach($packages as $package){
-                $package->features = $this->db->table('package_features')->select('*')->where('pkg_id', $package->pkg_id)->where('status', 'active')->get()->getResult();
+            if($packages){
+                foreach($packages as $package){
+                    $package->features = $this->db->table('package_features')->select('*')->where('pkg_id', $package->pkg_id)->where('status', 'active')->get()->getResult();
+                }
             }
     
             $data['home'] = [

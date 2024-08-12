@@ -20,6 +20,11 @@ class CreateTableProductScreenShots extends Migration
                 'constraint' => 11,
                 'null' => false,
             ],
+            'title' => [
+                'type' => 'VARCHAR',
+                'constraint' => 150,
+                'null' => true,
+            ],
             'image' => [
                 'type' => 'TEXT',
                 'null' => false,

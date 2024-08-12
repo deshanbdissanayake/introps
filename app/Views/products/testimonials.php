@@ -1,5 +1,5 @@
-<section class="pos-rel pd-tb-small" data-rgen-sm="pd-tb-small" id="testimonials">
-<div class="container pos-rel z2">
+<section class="pos-rel pd-tb-small bg-dark" data-rgen-sm="pd-tb-small" id="testimonials">
+<div class="container pos-rel z2 typo-light">
 	<div class="w75 mr-auto align-c" data-animate-in="fadeIn">
 		<h2 class="title" data-rgen-sm="medium">You're in good company</h2>
 		<p class="title-sub" data-rgen-sm="small">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem excepturi accusamus similique sunt maxime ipsa, debitis.</p>	
@@ -10,7 +10,7 @@
 			<div class="info-obj img-t g20 mini pd-tiny bg-white rd-6 -mr-b-10 shadow-tiny">
 				<div class="img"><span class="iconwrp rd bg-default txt-white -mr-t-50"><i class="fa fa-quote-left"></i></span></div>
 				<div class="info">
-					<p class="fs16">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
+					<p class="fs16 txt-dark">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
 				</div>
 			</div><!-- info box -->
 			<div class="info-obj img-l g10 small mid pd-lr-20">
@@ -26,7 +26,7 @@
 			<div class="info-obj img-t g20 mini pd-tiny bg-white rd-6 -mr-b-10 shadow-tiny">
 				<div class="img"><span class="iconwrp rd bg-default txt-white -mr-t-50"><i class="fa fa-quote-left"></i></span></div>
 				<div class="info">
-					<p class="fs16">Sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
+					<p class="fs16 txt-dark">Sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
 				</div>
 			</div><!-- info box -->
 			<div class="info-obj img-l g10 small mid pd-lr-20">
@@ -42,7 +42,7 @@
 			<div class="info-obj img-t g20 mini pd-tiny bg-white rd-6 -mr-b-10 shadow-tiny">
 				<div class="img"><span class="iconwrp rd bg-default txt-white -mr-t-50"><i class="fa fa-quote-left"></i></span></div>
 				<div class="info">
-					<p class="fs16">Consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
+					<p class="fs16 txt-dark">Consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
 				</div>
 			</div><!-- info box -->
 			<div class="info-obj img-l g10 small mid pd-lr-20">

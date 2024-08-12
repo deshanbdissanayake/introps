@@ -9,7 +9,7 @@ class ProductFeaturesSeeder extends Seeder
         $data = [
             [
                 'pro_id'   => 1, // Make sure this ID matches an existing product ID
-                'icon'     => 'icon_url',
+                'icon'     => 'pe-7s-box1',
                 't_title'  => 'Feature Title',
                 't_desc'   => 'Feature Description',
                 'status'   => 'active',
