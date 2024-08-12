@@ -39,7 +39,7 @@ class Services extends Controller
         if($data['pricing']['show_price']){
             $output .= view('services/pricing', $data['pricing']);
         }
-        $output .= view('services/contact');
+        $output .= view('contact_card');
         $output .= view('footer');
 
         // Return the concatenated views

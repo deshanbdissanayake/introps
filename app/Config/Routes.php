@@ -15,9 +15,8 @@ $routes->get('services/srv/(:num)', 'Services::service/$1');
 $routes->get('/contact', 'Contact::index');
 
 // Products Routes
-$routes->get('/products/invigo', 'Products::invigo');
-$routes->get('/products/irest', 'Products::irest');
-$routes->get('/products/isales', 'Products::isales');
+$routes->get('/products', 'Products::index');
+$routes->get('products/pro/(:num)', 'Products::product/$1');
 
 // Portfolio Route
 $routes->get('/portfolio', 'Portfolio::index');

@@ -1,0 +1,23 @@
+<?php namespace App\Database\Seeds;
+
+use CodeIgniter\Database\Seeder;
+
+class ProductFeaturesSeeder extends Seeder
+{
+    public function run()
+    {
+        $data = [
+            [
+                'pro_id'   => 1, // Make sure this ID matches an existing product ID
+                'icon'     => 'icon_url',
+                't_title'  => 'Feature Title',
+                't_desc'   => 'Feature Description',
+                'status'   => 'active',
+                'c_date'   => date('Y-m-d H:i:s'),
+            ],
+            // Add more sample data if needed
+        ];
+
+        $this->db->table('product_features')->insertBatch($data);
+    }
+}
