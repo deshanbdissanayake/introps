@@ -13,6 +13,7 @@ class TestimonialsSeeder extends Seeder
                 'ref_type' => 'services',
                 'ref_no' => 1,
                 'cus_name' => 'Customer 1',
+                'cus_designation' => 'CEO',
                 'cus_image' => 'path/to/image1.jpg',
                 'rating' => 5.00,
                 'review' => 'Great service!',
@@ -23,6 +24,7 @@ class TestimonialsSeeder extends Seeder
                 'ref_type' => 'products',
                 'ref_no' => 2,
                 'cus_name' => 'Customer 2',
+                'cus_designation' => 'MD',
                 'cus_image' => 'path/to/image2.jpg',
                 'rating' => 4.50,
                 'review' => 'Good product!',
@@ -30,7 +32,6 @@ class TestimonialsSeeder extends Seeder
                 'c_date' => date('Y-m-d H:i:s'),
             ],
         ];
-
         $this->db->table('testimonials')->insertBatch($data);
     }
 }

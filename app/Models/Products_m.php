@@ -36,6 +36,9 @@ class Products_m extends Model
             $packages = $this->db->table('packages')->select('*')->where('ref_type', 'products')->where('ref_no', $pro_id)->where('status', 'active')->get()->getResult();
 
             $features = $this->db->table('product_features')->select('*')->where('pro_id', $pro_id)->where('status', 'active')->get()->getResult();
+
+            $testimonials = $this->db->table('testimonials')->select('*')->where('ref_type', 'products')->where('ref_no', $pro_id)->where('status', 'active')->get()->getResult();
+
     
             if($packages){
                 foreach($packages as $package){
@@ -60,6 +63,7 @@ class Products_m extends Model
             $data['testimonials'] = [
                 'testi_title'       => $product->testimonials_title ?? '',
                 'testi_subtitle'    => $product->testimonials_desc ?? '',
+                'testimonials'      => $testimonials,
             ];
     
             $data['screenshots'] = [

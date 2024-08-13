@@ -32,6 +32,11 @@ class CreateTableTestimonials extends Migration
                 'constraint' => 150,
                 'null' => false,
             ],
+            'cus_designation' => [
+                'type' => 'VARCHAR',
+                'constraint' => 100,
+                'null' => false,
+            ],
             'cus_image' => [
                 'type' => 'VARCHAR',
                 'constraint' => 150,

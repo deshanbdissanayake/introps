@@ -1,5 +1,4 @@
-<?php print_r($price_packages); exit;?>
-<section class="pd-tb-medium pos-rel" data-rgen-sm="pd-tb-small align-c" id="price">
+<section class="pd-tb-medium pos-rel pt-6 pb-6" data-rgen-sm="pd-tb-small align-c" id="price">
 	<div class="container pos-rel z1">
 		<div class="row middle-md">
 			<div class="col-md-4" data-rgen-sm="mr-b-20" data-animate-in="fadeIn">
@@ -8,63 +7,46 @@
 				<hr>
 				<h3 class="title mini bold-n">Talk to us</h3>
 				<p>Drop us a line and we'll get back to you shortly.</p>
-				<a href="/contact?ref=products&id=<?= service('uri')->getSegment(3) ?>" class="btn btn-dark small bold-n">Contact Us</a>
+				<a href="/contact?ref=products&id=<?= service('uri')->getSegment(3) ?>&pkg=custom" class="btn btn-dark small bold-n">Contact Us</a>
 			</div>
 
 			<div class="col-md-7 offset-md-1 align-c">
 				<div class="row gt40 mb20">
-					<div class="col-md-6" data-animate-in="fadeInUp">
-						<div class="price-table-1 anim align-c bdr-1 bdr-op-1 pd-tiny rd-5">
-							<h2 class="title small pd-10">FREE</h2>
+					<?php
+						if(!empty($price_packages)):
+						foreach($price_packages as $pkg):
+							$bdr = $pkg->pkg_fav ? 'bdr-default' : '';
+							$bg = $pkg->pkg_fav ? 'bg-default' : '';
+							$txt = $pkg->pkg_fav ? 'txt-default' : '';
 
-							<hr>
-							
-							<h3 class="fs60 bold-n mr-0">$0</h3>
-							<p>Per Month</p>
+					?>
+						<div class="col-md-6" data-animate-in="fadeInUp|0.1">
+							<div class="price-table-1 anim align-c bdr-1 <?=$bdr?> pd-tiny rd-5">
+								<?php if($pkg->pkg_fav): ?>
+									<span class="tag-text <?=$bg?>">Most Popular</span>
+								<?php endif; ?>
+								<h2 class="title small pd-10 <?=$txt?>"><?=$pkg->pkg_name?></h2>
 
-							<hr>
-							
-							<p>Up to 20 free project</p>
-							<p>Maximum 30 sub tasks</p>
-							<p>5 sharing</p>
-							<p>Limited to single device</p>
-							
-							<hr>
+								<hr>
+								
+								<p class="lh-1 mr-b-30 txt-dark"><span class="fs50"><?=$pkg->pkg_price?></span><?=is_numeric($pkg->pkg_price) ? 'LKR' : '' ?></p>
 
-							<a href="http://goo.gl/hs5BPz" class="btn btn-dark solid mr-tb-20">GET STARTED</a>
+								<hr>
+								<?php foreach($pkg->features as $feature): ?>
+									<p><?=$feature->pf_desc?></p>
+								<?php endforeach; ?>
+								<hr>
+
+								<a href="/contact?ref=products&id=<?= service('uri')->getSegment(3) ?>&pkg=<?=$pkg->pkg_id?>" class="btn btn-dark solid mr-tb-20">GET STARTED</a>
+							</div>
 						</div>
-					</div>
-
-					<div class="col-md-6" data-animate-in="fadeInUp|0.1">
-						<!-- Price block -->
-						<div class="price-table-1 anim align-c bdr-1 bdr-default pd-tiny rd-5">
-							<span class="tag-text bg-default">Most Popular</span>
-							<h2 class="title small pd-10 txt-default">PREMIUM</h2>
-
-							<hr>
-							
-							<h3 class="fs60 bold-n mr-0">$5.99</h3>
-							<p>Per Month</p>
-
-							<hr>
-
-							<p>Unlimited project</p>
-							<p>Unlimited sub tasks</p>
-							<p>Unlimited sharing</p>
-							<p>Unlimited all device</p>
-							
-							<hr>
-
-							<a href="http://goo.gl/hs5BPz" class="btn btn-dark solid mr-tb-20">GET STARTED</a>
-						</div>
-						<!-- Price block -->
-					</div><!-- column -->
+					<?php
+						endforeach;
+						endif;
+					?>
 
 				</div><!-- row -->
 			</div><!-- column -->
 		</div><!-- row -->
-
-		<hr class="mr-tb-50">
-
 	</div><!-- container -->
 </section>

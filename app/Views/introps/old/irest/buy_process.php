@@ -11,7 +11,7 @@
 					<p class="title-sub small" data-rgen-sm="small">Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod
 					tempor incididunt ut laboreet dolore</p>
 					
-					<a href="https://goo.gl/ZMxnYs" class="solid btn btn-dark large block rd-0 bdr-2" data-rgen-sm="medium">Contact us</a>
+					<a href="#" class="solid btn btn-dark large block rd-0 bdr-2" data-rgen-sm="medium">Contact us</a>
 				</div><!-- // END : column //  -->
 				
 				<div class="col-md-6 offset-md-1">

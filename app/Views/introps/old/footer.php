@@ -64,7 +64,7 @@
 			</div><!-- // END : row //  -->
 
 			<hr class="light">
-			<p class="mr-0 op-05"><a href="https://goo.gl/ZMxnYs" target="_blank">R.Gen - landing pages</a> &copy; <span class="copyright-year"></span></p>
+			<p class="mr-0 op-05"><a href="#" target="_blank">R.Gen - landing pages</a> &copy; <span class="copyright-year"></span></p>
 		</div>
 	</footer><!-- / Footer section -->
 	<!-- ************** END : Footer section **************  -->

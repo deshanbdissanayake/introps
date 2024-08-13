@@ -17,7 +17,7 @@
 							<div class="content mr-30 z2">
 								<!-- Pop-up Image and link -->
 								<a href="/images/mockup-01.jpg" class="inline-flex sq40 bg-primary flex-cc fs24 mr-b-20 pop-img"><i class="pe-7s-expand1"></i></a>
-								<a href="https://goo.gl/ZMxnYs" target="_blank" class="inline-flex sq40 bg-primary flex-cc fs24 mr-b-20"><i class="pe-7s-link"></i></a>
+								<a href="#" target="_blank" class="inline-flex sq40 bg-primary flex-cc fs24 mr-b-20"><i class="pe-7s-link"></i></a>
 								
 								<!-- Text content -->
 								<h3 class="title mini bold-n">Holy Crab</h3>
@@ -36,7 +36,7 @@
 							<div class="content mr-30 z2">
 								<!-- Pop-up Image and link -->
 								<a href="/images/mockup-02.jpg" class="inline-flex sq40 bg-primary flex-cc fs24 mr-b-20 pop-img"><i class="pe-7s-expand1"></i></a>
-								<a href="https://goo.gl/ZMxnYs" target="_blank" class="inline-flex sq40 bg-primary flex-cc fs24 mr-b-20"><i class="pe-7s-link"></i></a>
+								<a href="#" target="_blank" class="inline-flex sq40 bg-primary flex-cc fs24 mr-b-20"><i class="pe-7s-link"></i></a>
 								
 								<!-- Text content -->
 								<h3 class="title mini bold-n">Fuel Station</h3>
@@ -55,7 +55,7 @@
 							<div class="content mr-30 z2">
 								<!-- Pop-up Image and link -->
 								<a href="/images/mockup-03.jpg" class="inline-flex sq40 bg-primary flex-cc fs24 mr-b-20 pop-img"><i class="pe-7s-expand1"></i></a>
-								<a href="https://goo.gl/ZMxnYs" target="_blank" class="inline-flex sq40 bg-primary flex-cc fs24 mr-b-20"><i class="pe-7s-link"></i></a>
+								<a href="#" target="_blank" class="inline-flex sq40 bg-primary flex-cc fs24 mr-b-20"><i class="pe-7s-link"></i></a>
 								
 								<!-- Text content -->
 								<h3 class="title mini bold-n">Muveo</h3>
@@ -74,7 +74,7 @@
 							<div class="content mr-30 z2">
 								<!-- Pop-up Image and link -->
 								<a href="/images/mockup-04.jpg" class="inline-flex sq40 bg-primary flex-cc fs24 mr-b-20 pop-img"><i class="pe-7s-expand1"></i></a>
-								<a href="https://goo.gl/ZMxnYs" target="_blank" class="inline-flex sq40 bg-primary flex-cc fs24 mr-b-20"><i class="pe-7s-link"></i></a>
+								<a href="#" target="_blank" class="inline-flex sq40 bg-primary flex-cc fs24 mr-b-20"><i class="pe-7s-link"></i></a>
 								
 								<!-- Text content -->
 								<h3 class="title mini bold-n">Genzo</h3>
@@ -93,7 +93,7 @@
 							<div class="content mr-30 z2">
 								<!-- Pop-up Image and link -->
 								<a href="/images/mockup-05.jpg" class="inline-flex sq40 bg-primary flex-cc fs24 mr-b-20 pop-img"><i class="pe-7s-expand1"></i></a>
-								<a href="https://goo.gl/ZMxnYs" target="_blank" class="inline-flex sq40 bg-primary flex-cc fs24 mr-b-20"><i class="pe-7s-link"></i></a>
+								<a href="#" target="_blank" class="inline-flex sq40 bg-primary flex-cc fs24 mr-b-20"><i class="pe-7s-link"></i></a>
 								
 								<!-- Text content -->
 								<h3 class="title mini bold-n">Fenix Cars</h3>
@@ -112,7 +112,7 @@
 							<div class="content mr-30 z2">
 								<!-- Pop-up Image and link -->
 								<a href="/images/mockup-06.jpg" class="inline-flex sq40 bg-primary flex-cc fs24 mr-b-20 pop-img"><i class="pe-7s-expand1"></i></a>
-								<a href="https://goo.gl/ZMxnYs" target="_blank" class="inline-flex sq40 bg-primary flex-cc fs24 mr-b-20"><i class="pe-7s-link"></i></a> 
+								<a href="#" target="_blank" class="inline-flex sq40 bg-primary flex-cc fs24 mr-b-20"><i class="pe-7s-link"></i></a> 
 								
 								<!-- Text content -->
 								<h3 class="title mini bold-n">SLanka Travels</h3>

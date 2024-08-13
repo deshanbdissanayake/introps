@@ -253,7 +253,7 @@
 							<div class="content mr-30 z2">
 								<!-- Pop-up Image and link -->
 								<a href="assets/images/mockup-01.jpg" class="inline-flex sq40 bg-primary flex-cc fs24 mr-b-20 pop-img"><i class="pe-7s-expand1"></i></a>
-								<a href="https://goo.gl/ZMxnYs" target="_blank" class="inline-flex sq40 bg-primary flex-cc fs24 mr-b-20"><i class="pe-7s-exapnd2"></i></a>
+								<a href="#" target="_blank" class="inline-flex sq40 bg-primary flex-cc fs24 mr-b-20"><i class="pe-7s-exapnd2"></i></a>
 								
 								<!-- Text content -->
 								<h3 class="title mini bold-n">Project name will come</h3>
@@ -272,7 +272,7 @@
 							<div class="content mr-30 z2">
 								<!-- Pop-up Image and link -->
 								<a href="assets/images/mockup-02.jpg" class="inline-flex sq40 bg-primary flex-cc fs24 mr-b-20 pop-img"><i class="pe-7s-expand1"></i></a>
-								<a href="https://goo.gl/ZMxnYs" target="_blank" class="inline-flex sq40 bg-primary flex-cc fs24 mr-b-20"><i class="pe-7s-exapnd2"></i></a>
+								<a href="#" target="_blank" class="inline-flex sq40 bg-primary flex-cc fs24 mr-b-20"><i class="pe-7s-exapnd2"></i></a>
 								
 								<!-- Text content -->
 								<h3 class="title mini bold-n">Project name will come</h3>
@@ -291,7 +291,7 @@
 							<div class="content mr-30 z2">
 								<!-- Pop-up Image and link -->
 								<a href="assets/images/mockup-03.jpg" class="inline-flex sq40 bg-primary flex-cc fs24 mr-b-20 pop-img"><i class="pe-7s-expand1"></i></a>
-								<a href="https://goo.gl/ZMxnYs" target="_blank" class="inline-flex sq40 bg-primary flex-cc fs24 mr-b-20"><i class="pe-7s-exapnd2"></i></a>
+								<a href="#" target="_blank" class="inline-flex sq40 bg-primary flex-cc fs24 mr-b-20"><i class="pe-7s-exapnd2"></i></a>
 								
 								<!-- Text content -->
 								<h3 class="title mini bold-n">Project name will come</h3>
@@ -310,7 +310,7 @@
 							<div class="content mr-30 z2">
 								<!-- Pop-up Image and link -->
 								<a href="assets/images/mockup-04.jpg" class="inline-flex sq40 bg-primary flex-cc fs24 mr-b-20 pop-img"><i class="pe-7s-expand1"></i></a>
-								<a href="https://goo.gl/ZMxnYs" target="_blank" class="inline-flex sq40 bg-primary flex-cc fs24 mr-b-20"><i class="pe-7s-exapnd2"></i></a>
+								<a href="#" target="_blank" class="inline-flex sq40 bg-primary flex-cc fs24 mr-b-20"><i class="pe-7s-exapnd2"></i></a>
 								
 								<!-- Text content -->
 								<h3 class="title mini bold-n">Project name will come</h3>
@@ -329,7 +329,7 @@
 							<div class="content mr-30 z2">
 								<!-- Pop-up Image and link -->
 								<a href="assets/images/mockup-05.jpg" class="inline-flex sq40 bg-primary flex-cc fs24 mr-b-20 pop-img"><i class="pe-7s-expand1"></i></a>
-								<a href="https://goo.gl/ZMxnYs" target="_blank" class="inline-flex sq40 bg-primary flex-cc fs24 mr-b-20"><i class="pe-7s-exapnd2"></i></a>
+								<a href="#" target="_blank" class="inline-flex sq40 bg-primary flex-cc fs24 mr-b-20"><i class="pe-7s-exapnd2"></i></a>
 								
 								<!-- Text content -->
 								<h3 class="title mini bold-n">Project name will come</h3>
@@ -348,7 +348,7 @@
 							<div class="content mr-30 z2">
 								<!-- Pop-up Image and link -->
 								<a href="assets/images/mockup-06.jpg" class="inline-flex sq40 bg-primary flex-cc fs24 mr-b-20 pop-img"><i class="pe-7s-expand1"></i></a>
-								<a href="https://goo.gl/ZMxnYs" target="_blank" class="inline-flex sq40 bg-primary flex-cc fs24 mr-b-20"><i class="pe-7s-exapnd2"></i></a>
+								<a href="#" target="_blank" class="inline-flex sq40 bg-primary flex-cc fs24 mr-b-20"><i class="pe-7s-exapnd2"></i></a>
 								
 								<!-- Text content -->
 								<h3 class="title mini bold-n">Project name will come</h3>
@@ -674,7 +674,7 @@
 		<div class="container typo-light" data-rgen-sm="align-c">
 			<div class="row gt20 mb20">
 				<div class="col-md-6">
-					<p><a href="https://goo.gl/ZMxnYs" target="_blank" class="inline-block max-px-w150"><img src="assets/images/logo-light.png" class="max-px-w140" alt="logo"></a></p>
+					<p><a href="#" target="_blank" class="inline-block max-px-w150"><img src="assets/images/logo-light.png" class="max-px-w140" alt="logo"></a></p>
 					<p>PO Box 16122, Collins Street West,<br>Victoria 8007, Australia</p>
 					
 					<!--=========================================
@@ -707,7 +707,7 @@
 			</div>
 
 			<hr class="light">
-			<p class="mr-0 op-05"><a href="https://goo.gl/ZMxnYs" target="_blank">R.Gen - landing pages</a> &copy; <span class="copyright-year"></span></p>
+			<p class="mr-0 op-05"><a href="#" target="_blank">R.Gen - landing pages</a> &copy; <span class="copyright-year"></span></p>
 		</div>
 	</footer><!-- / Footer section -->
 	<!-- ************** END : Footer section **************  -->

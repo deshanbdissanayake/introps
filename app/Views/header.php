@@ -3,6 +3,9 @@
 	$serviceModel = model('App\Models\Services_m');
 	$services = $serviceModel->getAllServices();
 
+	$productModel = model('App\Models\Products_m');
+	$products = $productModel->getAllProducts();
+
 ?>
 
 <!DOCTYPE html>
@@ -251,12 +254,15 @@
                                 <li class="menu-item dropdown">
                                     <a class="dropbtn" href="#products">Products <i class="fa fa-caret-down"></i></a>
                                     <div class="dropdown-content">
-                                        <a href="/products/invigo">Invigo</a>
-                                        <a href="/products/irest">iRest</a>
-                                        <a href="/products/isales">iSales</a>
+										<?php
+											foreach ($products as $product) {
+												$url = base_url('products/pro/' . $product->pro_id);
+												echo '<a href="' . $url . '">' . esc($product->product_name) . '</a>';
+											}
+										?>
                                     </div> 
                                 </li>
-                                <li class="menu-item"><a href="/Portfolio">Portfolio</a></li>
+                                <li class="menu-item"><a href="/portfolio">Portfolio</a></li>
                                 <li class="menu-item dropdown">
                                     <a class="dropbtn" href="/Introps_content/about">Introps <i class="fa fa-caret-down"></i></a>
                                     <div class="dropdown-content">
