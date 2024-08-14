@@ -23,7 +23,7 @@ class Portfolio_m extends Model {
     public function getAllTags() {
         $builder = $this->db->table('portfolio_tags')
             ->join('tags', 'tags.tag_id = portfolio_tags.tag_id', 'left')
-            ->select('tags.*') // Adjust select to avoid column conflicts
+            ->select('tags.*')
             ->where('tags.status', 'active');
         $res = $builder->get()->getResult();
         return $res;
@@ -32,7 +32,7 @@ class Portfolio_m extends Model {
     public function getTagByPortfolioId($port_id) {
         $builder = $this->db->table('portfolio_tags')
             ->join('tags', 'tags.tag_id = portfolio_tags.tag_id', 'left')
-            ->select('tags.*') // Adjust select to avoid column conflicts
+            ->select('tags.*')
             ->where('portfolio_tags.port_id', $port_id)
             ->where('portfolio_tags.status', 'active')
             ->where('tags.status', 'active');
@@ -42,8 +42,8 @@ class Portfolio_m extends Model {
     
     public function getPortfolioByTagId($tag_id) {
         $builder = $this->db->table('portfolio_tags')
-            ->join('portfolio', 'portfolio.port_id = portfolio.port_id', 'left')
-            ->select('portfolio.*, portfolio_tags.tag_id') // Adjust select to avoid column conflicts
+            ->join('portfolio', 'portfolio.port_id = portfolio_tags.port_id', 'left')
+            ->select('portfolio.*, portfolio_tags.tag_id')
             ->where('portfolio_tags.tag_id', $tag_id)
             ->where('portfolio_tags.status', 'active')
             ->where('portfolio.status', 'active');

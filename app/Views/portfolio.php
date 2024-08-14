@@ -1,4 +1,4 @@
-<section class="pd-tb-medium" data-rgen-sm="pd-tb-small">
+<section class="pd-tb-medium" data-rgen-sm="pd-tb-medium">
     <div class="container small filter-widget">
         <h2 class="title large mr-0 f-2 align-c" data-animate-in="fadeIn" data-rgen-sm="medium">Our Portfolio</h2>
 
@@ -27,6 +27,8 @@
     });
 
     $(document).on('click', '.tag_click', async function() {
+        $('.tag_click').removeClass('active');
+        $(this).addClass('active');
         const tag_id = $(this).data('id');
         try {
             if (tag_id === 'all') {
@@ -90,9 +92,9 @@
         let list = '';
 
         if (data.length > 0) {
-            list = '<a class="active btn btn-dark solid mr-tb-20 tag_click mr-2" data-filter="all" data-id="all">All</a>';
+            list = '<button class="active btn btn-dark bold-n mr-tb-20 tag_click mr-2" data-filter="all" data-id="all">All</button>';
             data.forEach(tag => {
-                list += `<a class="btn btn-dark bold-n tag_click mr-2" data-id="${tag.tag_id}">${tag.tag_name}</a>`;
+                list += `<button class="btn btn-dark bold-n tag_click mr-2" data-id="${tag.tag_id}">${tag.tag_name}</button>`;
             });
         } else {
             list = '<p class="txt-danger">No Tags Found!</p>';
@@ -102,36 +104,36 @@
     };
 
     const renderPortfolio = (data) => {
-    let list = '';
+        let list = '';
 
-    if (data.length > 0) {
-        data.forEach(p => {
-            const tagId = p.tag_id || '0';
+        if (data.length > 0) {
+            data.forEach(p => {
+                const tagId = p.tag_id || '0';
 
-            list += `
-                <li class="cl tag_${tagId} filter-content">
-                    <figure class="hover-box1 mr-0">
-                        <div class="overlay flex-bl typo-light">
-                            <div class="content mr-30 z2">
-                                <!-- Pop-up Image and link -->
-                                <a href="${p.image_path}" class="inline-flex sq40 bg-primary flex-cc fs24 mr-b-20 pop-img"><i class="pe-7s-expand1"></i></a>
-                                <a href="${p.project_path}" target="_blank" class="inline-flex sq40 bg-primary flex-cc fs24 mr-b-20"><i class="pe-7s-link"></i></a>
-                                
-                                <h3 class="title mini bold-n">${p.title}</h3>
-                                <p class="mr-0 fs12 op-08">${p.subtitle}</p>
+                list += `
+                    <li class="cl tag_${tagId} filter-content">
+                        <figure class="hover-box1 mr-0">
+                            <div class="overlay flex-bl typo-light">
+                                <div class="content mr-30 z2">
+                                    <!-- Pop-up Image and link -->
+                                    <a href="${p.image_path}" class="inline-flex sq40 bg-primary flex-cc fs24 mr-b-20 pop-img"><i class="pe-7s-expand1"></i></a>
+                                    <a href="${p.project_path}" target="_blank" class="inline-flex sq40 bg-primary flex-cc fs24 mr-b-20"><i class="pe-7s-link"></i></a>
+                                    
+                                    <h3 class="title mini bold-n">${p.title}</h3>
+                                    <p class="mr-0 fs12 op-08">${p.subtitle}</p>
+                                </div>
+                                <b class="full-wh bg-dark op-09 z1 l0"></b>
                             </div>
-                            <b class="full-wh bg-dark op-09 z1 l0"></b>
-                        </div>
-                        <img src="${p.image_path}" alt="${p.title}">
-                    </figure>
-                </li>
-            `;
-        });
-    } else {
-        list = '<p class="txt-danger">No Portfolio Images Found!</p>';
-    }
+                            <img src="${p.image_path}" alt="${p.title}">
+                        </figure>
+                    </li>
+                `;
+            });
+        } else {
+            list = '<p class="txt-danger">No Portfolio Images Found!</p>';
+        }
 
-    $('.portfolio_section').html(list);
-};
+        $('.portfolio_section').html(list);
+    };
 
 </script>
