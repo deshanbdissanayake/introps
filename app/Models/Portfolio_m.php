@@ -4,27 +4,51 @@ namespace App\Models;
 
 use CodeIgniter\Model;
 
-class Portfolio_m extends Model{
+class Portfolio_m extends Model {
+
+    protected $table = 'portfolio';
+    protected $primaryKey = 'port_id';
+    protected $allowedFields = ['status'];
 
     public function getAllPortfolioData() {
-        $res = $this->db->table('portfolio')->select('*')->where('status', 'active')->get()->getResult();
-        foreach ($res as $re) {
-            $re->tags = $this->getTagByPortfolioId($re->port_id);
+        $res = $this->where('status', 'active')->findAll();
+        
+        foreach ($res as &$re) { // use reference to modify array elements directly
+            $re['tags'] = $this->getTagByPortfolioId($re['port_id']);
         }
+        
         return $res;
     }
     
     public function getAllTags() {
-        $res = $this->db->table('portfolio_tags')->select('*')->where('status', 'active')->get()->getResult();
+        $builder = $this->db->table('portfolio_tags')
+            ->join('tags', 'tags.tag_id = portfolio_tags.tag_id', 'left')
+            ->select('tags.*') // Adjust select to avoid column conflicts
+            ->where('tags.status', 'active');
+        $res = $builder->get()->getResult();
         return $res;
     }
     
     public function getTagByPortfolioId($port_id) {
-        $res = $this->db->table('portfolio_tags')->select('*')->where('port_id', $port_id)->where('status', 'active')->get()->getResult();
+        $builder = $this->db->table('portfolio_tags')
+            ->join('tags', 'tags.tag_id = portfolio_tags.tag_id', 'left')
+            ->select('tags.*') // Adjust select to avoid column conflicts
+            ->where('portfolio_tags.port_id', $port_id)
+            ->where('portfolio_tags.status', 'active')
+            ->where('tags.status', 'active');
+        $res = $builder->get()->getResult();
         return $res;
     }
     
-
+    public function getPortfolioByTagId($tag_id) {
+        $builder = $this->db->table('portfolio_tags')
+            ->join('portfolio', 'portfolio.port_id = portfolio.port_id', 'left')
+            ->select('portfolio.*, portfolio_tags.tag_id') // Adjust select to avoid column conflicts
+            ->where('portfolio_tags.tag_id', $tag_id)
+            ->where('portfolio_tags.status', 'active')
+            ->where('portfolio.status', 'active');
+        $res = $builder->get()->getResult();
+        return $res;
+    }
 }
-
 ?>

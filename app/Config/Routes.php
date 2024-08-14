@@ -20,6 +20,9 @@ $routes->get('products/pro/(:num)', 'Products::product/$1');
 
 // Portfolio Route
 $routes->get('/portfolio', 'Portfolio::index');
+$routes->get('portfolio/get_tags', 'Portfolio::getAllTags');
+$routes->get('portfolio/get_port', 'Portfolio::getAllPortfolioData');
+$routes->get('portfolio/get_port_by_id/(:num)', 'Portfolio::getPortfolioByTagId/$1');
 
 // About Us Routes
 $routes->get('/introps/about', 'About::index');
