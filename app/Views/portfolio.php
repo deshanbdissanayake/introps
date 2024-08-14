@@ -1,3 +1,9 @@
+<style>
+    .bg-glass {
+        background-color: #2d3345 !important;
+    }
+</style>
+
 <section class="pd-tb-medium" data-rgen-sm="pd-tb-medium">
     <div class="container small filter-widget">
         <h2 class="title large mr-0 f-2 align-c" data-animate-in="fadeIn" data-rgen-sm="medium">Our Portfolio</h2>

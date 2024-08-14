@@ -2,16 +2,25 @@
 
 namespace App\Controllers;
 
+use App\Models\About_m;
+use CodeIgniter\Controller;
+
 class About extends BaseController
 {
-    public function index(): string
+    protected $aboutModel;
+
+    public function __construct() {
+        $this->aboutModel = new About_m();
+    }
+
+    public function company(): string
     {
         $a["p_title"] = "About Us";
         $a["p_des"] = "Information about our company.";
         $a["p_key"] = "about us, company information";
 
         $output = view('header', $a);
-        $output .= view('about/index');
+        $output .= view('about/company');
         $output .= view('footer');
 
         return $output;
@@ -23,8 +32,11 @@ class About extends BaseController
         $a["p_des"] = "Meet our team.";
         $a["p_key"] = "team, staff, employees";
 
+        $data['team'] = $this->aboutModel->getTeamData();
+        $data['deps'] = $this->aboutModel->getDepartments();
+
         $output = view('header', $a);
-        $output .= view('about/team');
+        $output .= view('about/team', $data);
         $output .= view('footer');
 
         return $output;

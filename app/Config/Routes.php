@@ -24,14 +24,14 @@ $routes->get('portfolio/get_tags', 'Portfolio::getAllTags');
 $routes->get('portfolio/get_port', 'Portfolio::getAllPortfolioData');
 $routes->get('portfolio/get_port_by_id/(:num)', 'Portfolio::getPortfolioByTagId/$1');
 
-// About Us Routes
-$routes->get('/introps/about', 'About::index');
+// Introps Routes
+$routes->get('/introps/about', 'About::company');
 $routes->get('/introps/team', 'About::team');
 $routes->get('/introps/careers', 'About::careers');
-$routes->get('/introps/testimonials', 'About::testimonials');
 
 // Blog Route
 $routes->get('/blog', 'Blog::index');
+$routes->get('blog/post/(:num)', 'Blog::single/$1');
 
 // Contact Route
 $routes->get('/introps/contact', 'Contact::index');
