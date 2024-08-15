@@ -3,6 +3,9 @@
 	$serviceModel = model('App\Models\Services_m');
 	$services = $serviceModel->getAllServices();
 
+	$productModel = model('App\Models\Products_m');
+	$products = $productModel->getAllProducts();
+
 ?>
 
 <!--
@@ -23,10 +26,9 @@
 					=  Social links
 					=============================================-->
 					<a href="https://www.facebook.com/introps" target="_blank" class="sq30 fs16 mr-r-4 rd-4 iconbox btn-white"><i class="fab fa-facebook-f"></i></a>
-					<a href="#" target="_blank" class="sq30 fs16 mr-r-4 rd-4 iconbox btn-white"><i class="fab fa-twitter"></i></a>
-					<a href="#" target="_blank" class="sq30 fs16 mr-r-4 rd-4 iconbox btn-white"><i class="fab fa-google"></i></a>
-					<a href="#" target="_blank" class="sq30 fs16 mr-r-4 rd-4 iconbox btn-white"><i class="fab fa-youtube"></i></a>
-					<a href="#" target="_blank" class="sq30 fs16 mr-r-4 rd-4 iconbox btn-white"><i class="fab fa-tumblr"></i></a>
+					<a href="https://www.linkedin.com/in/introps" target="_blank" class="sq30 fs16 mr-r-4 rd-4 iconbox btn-white"><i class="fab fa-linkedin"></i></a>
+					<a href="https://www.instagram.com/introps.it/" target="_blank" class="sq30 fs16 mr-r-4 rd-4 iconbox btn-white"><i class="fab fa-instagram"></i></a>
+					<a href="https://www.youtube.com/@intropssoftwaresolutions" target="_blank" class="sq30 fs16 mr-r-4 rd-4 iconbox btn-white"><i class="fab fa-youtube"></i></a>
 				</div><!-- // END : Column //  -->
 				
 				<div class="col-md-8">
@@ -44,20 +46,24 @@
 						</div><!-- // END : column //  -->
 						
 						<div class="col-md-4">
-							<h3 class="title tiny">Help and Support</h3>
+							<h3 class="title tiny">Our Products</h3>
 							<ul class="list-1 txt-white op-05">
-								<li><a href="#">How to Use</a></li>
-								<li><a href="#">Contact Us</a></li>
+								<?php
+									foreach ($products as $product) {
+										$url = base_url('products/pro/' . $product->pro_id);
+										echo '<li><a href="' . $url . '">' . esc($product->product_name) . '</a></li>';
+									}
+								?>
 							</ul>
 						</div><!-- // END : column //  -->
 
 						<div class="col-md-4">
 							<h3 class="title tiny">About Us</h3>
 							<ul class="list-1 txt-white op-05">
-								<li><a href="#">About Us</a></li>
-								<li><a href="#">Privacy Policy</a></li>
-								<li><a href="#">Our Clients</a></li>
-								<li><a href="#">Terms and Conditions</a></li>
+								<li><a href="/contact">Contact Us</a></li>
+								<li><a href="/introps/about">About Us</a></li>
+								<li><a href="/privacy_policy">Privacy Policy</a></li>
+								<li><a href="/terms_and_conditions">Terms and Conditions</a></li>
 							</ul>
 						</div><!-- // END : column //  -->
 					</div><!-- // END : row //  -->

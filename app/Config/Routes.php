@@ -28,6 +28,8 @@ $routes->get('portfolio/get_port_by_id/(:num)', 'Portfolio::getPortfolioByTagId/
 $routes->get('/introps/about', 'About::company');
 $routes->get('/introps/team', 'About::team');
 $routes->get('/introps/careers', 'About::careers');
+$routes->get('/terms_and_conditions', 'About::terms');
+$routes->get('/privacy_policy', 'About::policy');
 
 // Blog Route
 $routes->get('/blog', 'Blog::index');

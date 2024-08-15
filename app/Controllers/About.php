@@ -67,4 +67,30 @@ class About extends BaseController
 
         return $output;
     }
+
+    public function terms(): string
+    {
+        $a["p_title"] = "Terms & Conditions";
+        $a["p_des"] = "What our clients say.";
+        $a["p_key"] = "testimonials, reviews, client feedback";
+
+        $output = view('header', $a);
+        $output .= view('about/terms');
+        $output .= view('footer');
+
+        return $output;
+    }
+
+    public function policy(): string
+    {
+        $a["p_title"] = "Privacy Policy";
+        $a["p_des"] = "What our clients say.";
+        $a["p_key"] = "testimonials, reviews, client feedback";
+
+        $output = view('header', $a);
+        $output .= view('about/policy');
+        $output .= view('footer');
+
+        return $output;
+    }
 }
