@@ -38,10 +38,10 @@
             </div><!-- // END : column //  -->
             
             <div class="col-md-6 offset-md-1" data-animate-in="fadeInRight">
-                <p class="op-06">At Introps IT, we are committed to delivering innovative technology solutions that drive business success. Our team of experts excels in providing customized software development, cutting-edge IT consulting, and comprehensive support services. We strive to exceed our clients' expectations and foster long-term partnerships built on trust and excellence.</p>
-                <p class="op-06 mr-0">With a focus on leveraging the latest technologies and industry best practices, we ensure that our solutions are both effective and future-proof. Our dedication to quality and customer satisfaction is at the heart of everything we do, making us a trusted partner for businesses around the world.</p>
+                <p class="op-06 txt-dark">At Introps IT, we are committed to delivering innovative technology solutions that drive business success. Our team of experts excels in providing customized software development, cutting-edge IT consulting, and comprehensive support services. We strive to exceed our clients' expectations and foster long-term partnerships built on trust and excellence.</p>
+                <p class="op-06 mr-0 txt-dark">With a focus on leveraging the latest technologies and industry best practices, we ensure that our solutions are both effective and future-proof. Our dedication to quality and customer satisfaction is at the heart of everything we do, making us a trusted partner for businesses around the world.</p>
             </div><!-- // END : column //  -->
-        </div><!-- // END : row //  -->
+        </div>
     </div><!-- / container -->
 
     <div class="bg-holder full-wh z0">
@@ -64,9 +64,9 @@
         <div class="row gt20 mb20">
             <div class="col-md-3">
                 <div class="info-obj img-t g30 mini align-c count-box typo-light">
-                    <div class="img"><span class="iconwrp txt-white"><i class="icon-profile-male"></i></span></div>
+                    <div class="img"><span class="iconwrp txt-white"><i class="fa fa-users"></i></span></div>
                     <div class="info">
-                        <h2 class="title f-1 mr-b-10"><span class="count">2140</span></h2>
+                        <h2 class="title f-1 mr-b-10"><span class="count">30+</span></h2>
                         <p class="mr-0">Happy Clients</p>
                     </div>
                 </div><!-- // END : Info object // -->
@@ -74,9 +74,9 @@
             
             <div class="col-md-3">
                 <div class="info-obj img-t g30 mini align-c count-box typo-light">
-                    <div class="img"><span class="iconwrp txt-white"><i class="icon-layers"></i></span></div>
+                    <div class="img"><span class="iconwrp txt-white"><i class="fa fa-clone"></i></span></div>
                     <div class="info">
-                        <h2 class="title f-1 mr-b-10"><span class="count">2580</span></h2>
+                        <h2 class="title f-1 mr-b-10"><span class="count">50+</span></h2>
                         <p class="mr-0">Projects Completed</p>
                     </div>
                 </div><!-- // END : Info object // -->
@@ -84,24 +84,25 @@
 
             <div class="col-md-3">
                 <div class="info-obj img-t g30 mini align-c count-box typo-light">
-                    <div class="img"><span class="iconwrp txt-white"><i class="icon-alarmclock"></i></span></div>
+                    <div class="img"><span class="iconwrp txt-white"><i class="fa fa-lightbulb"></i></span></div>
                     <div class="info">
-                        <h2 class="title f-1 mr-b-10"><span class="count">4500</span></h2>
-                        <p class="mr-0">Hours Worked</p>
+                        <h2 class="title f-1 mr-b-10"><span class="count">15</span></h2>
+                        <p class="mr-0">Innovative Solutions</p>
                     </div>
                 </div><!-- // END : Info object // -->
             </div><!-- // END : column //  -->
 
             <div class="col-md-3">
                 <div class="info-obj img-t g30 mini align-c count-box typo-light">
-                    <div class="img"><span class="iconwrp txt-white"><i class="icon-pencil"></i></span></div>
+                    <div class="img"><span class="iconwrp txt-white"><i class="fa fa-trophy"></i></span></div>
                     <div class="info">
-                        <h2 class="title f-1 mr-b-10"><span class="count">100</span></h2>
-                        <p class="mr-0">Articles Published</p>
+                        <h2 class="title f-1 mr-b-10"><span class="count">10</span></h2>
+                        <p class="mr-0">Awards Won</p>
                     </div>
                 </div><!-- // END : Info object // -->
             </div><!-- // END : column //  -->
-        </div><!-- // END : row //  -->
+        </div>
+
     </div>
 
     <div class="bg-holder full-wh z0">
@@ -141,8 +142,8 @@
                     </div>
                 </div>
             <?php endforeach; ?>
-        </div><!-- // END : row //  -->
-    </div><!-- // END : container //  -->
+        </div>
+    </div>
 
     <div class="bg-holder full-wh z0">
         <!-- Overlay -->

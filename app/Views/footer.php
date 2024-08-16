@@ -12,7 +12,7 @@
 	************************************************************
 	* Footer section
 	************************************************************ -->
-	<footer class="pos-rel pd-tb-small bg-dark" data-rgen-sm="pd-tb-small">
+	<footer class="pos-rel pd-tb-small bg-dark pt-5 pb-4" data-rgen-sm="pd-tb-small">
 		<div class="container typo-light" data-rgen-sm="align-c">
 			<div class="row gt20 mb20">
 				<div class="col-md-4">

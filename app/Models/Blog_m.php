@@ -12,7 +12,7 @@ class Blog_m extends Model
         if ($limit !== 'all') {
             $builder->limit($limit);
         }
-        $builder->select('blog_id, title, image, published_by, publish_date, short_desc')
+        $builder->select('blog_id, title, image, published_by, DATE(publish_date) publish_date, short_desc')
             ->where('status', 'active');
         $res = $builder->get()->getResult();
         return $res;

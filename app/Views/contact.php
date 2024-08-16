@@ -31,7 +31,7 @@
                     <div class="img txt-dark"><span class="iconwrp"><i class="pe-7s-mail"></i></span></div>
                     <div class="info">
                         <h3 class="title tiny mr-b-4 bold-3 f-1">Email</h3>
-                        <p class="mr-0"><a href="mailto:pintrops@gmail.com">pintrops@gmail.com</a></p>
+                        <p class="mr-0"><a href="mailto:info@introps.com">info@introps.com</a></p>
                     </div>
                 </div><!-- info box -->
                 

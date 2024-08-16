@@ -21,6 +21,7 @@ class About extends BaseController
 
         $output = view('header', $a);
         $output .= view('about/company');
+        $output .= view('contact_card');
         $output .= view('footer');
 
         return $output;
