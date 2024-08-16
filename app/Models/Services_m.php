@@ -51,8 +51,8 @@ class Services_m extends Model
             $data['work'] = [
                 'title' => $service->s_work_title,
                 'subtitle' => $service->s_work_desc,
+                'show_work' => $service->show_work,
                 'prev_work' => $portfolio
-                
             ];
             
             $data['pricing'] = [

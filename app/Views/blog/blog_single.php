@@ -2,6 +2,16 @@
     .bg-glass {
         background-color: #2d3345 !important;
     }
+	.label-default{
+		background-color: #e5e5e5;
+		color: #333;
+		padding: 5px;
+		padding-left: 10px;
+		padding-right: 10px;
+		border-radius: 5px;
+		cursor: pointer;
+		margin-right: 5px;
+	}
 </style>
 
 <section class="pd-tb-medium pos-rel" data-rgen-sm="pd-tb-medium">
@@ -38,6 +48,13 @@
 			<div class="col-12">
 				<h2 class="title small f-1 bold-3" data-rgen-sm="small" data-animate-in="fadeInUp|0.1">Conclusion</h2>
 				<p class="title-sub" data-rgen-sm="small"><?=$blog->conclusion?></p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-12">
+				<?php foreach($blog->tags as $tag): ?>
+					<label class="label label-default label-sm">#<?=$tag->tag_name?></label>
+				<?php endforeach; ?>
 			</div>
 		</div>
 	</div>

@@ -35,7 +35,9 @@ class Services extends Controller
         $output = view('header', $data['seo']);
         $output .= view('services/home', $data['home']);
         $output .= view('services/introduction', $data['intro']);
-        $output .= view('services/our_work', $data['work']);
+        if($data['work']['show_work']){
+            $output .= view('services/our_work', $data['work']);
+        }
         if($data['pricing']['show_price']){
             $output .= view('services/pricing', $data['pricing']);
         }

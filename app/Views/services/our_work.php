@@ -1,4 +1,3 @@
-
 <section class="pos-rel pd-tb-small pt-6 pb-6 bg-dark" data-rgen-sm="pd-tb-small" id="portfolio">
     <div class="container typo-light" data-animate-in="fadeIn">
         <div class="w75 mr-auto align-c">

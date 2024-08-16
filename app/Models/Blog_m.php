@@ -24,6 +24,15 @@ class Blog_m extends Model
             ->where('status', 'active')
             ->where('blog_id', $blog_id);
         $res = $builder->get()->getRow();
+
+        $tags = $this->db->table('blog_tags')
+            ->join('tags', 'tags.tag_id = blog_tags.tag_id', 'left')
+            ->select('blog_tags.tag_id, tag_name')
+            ->where('blog_tags.status', 'active')
+            ->where('blog_tags.blog_id', $blog_id)
+            ->get()->getResult(); 
+        $res->tags = $tags;
+
         return $res;
     }
 

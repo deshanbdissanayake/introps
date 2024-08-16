@@ -10,7 +10,6 @@ use CodeIgniter\Router\RouteCollection;
 $routes->get('/services', 'Services::index');
 $routes->get('services/srv/(:num)', 'Services::service/$1');
 
-
 // Contact Routes
 $routes->get('/contact', 'Contact::index');
 
@@ -34,9 +33,6 @@ $routes->get('/privacy_policy', 'About::policy');
 // Blog Route
 $routes->get('/blog', 'Blog::index');
 $routes->get('blog/post/(:num)', 'Blog::single/$1');
-
-// Contact Route
-$routes->get('/introps/contact', 'Contact::index');
 
 // Additional default routes
 $routes->get('/', 'Home::index'); // Default route if needed

@@ -36,7 +36,7 @@
 						<div class="img"><a href="/blog/post/<?=$blog->blog_id?>" target="_blank"><img src="<?=$blog->image?>"></a></div>
 						<div class="info">
 							<h3 class="title mini mr-b-4"><a href="/blog/post/<?=$blog->blog_id?>" target="_blank"><?=$blog->title?></a></h3>
-							<p class="italic"><i class="fa fa-calendar"></i> <?=$blog->published_by?> (<?=$blog->publish_date?>)</p>
+							<p class="italic"><i class="fa fa-calendar"></i>&nbsp;&nbsp;<?=$blog->published_by?>&nbsp;(<?=$blog->publish_date?>)</p>
 							
 							<p><?=$blog->short_desc?></p>
 

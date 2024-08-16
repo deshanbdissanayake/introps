@@ -71,7 +71,7 @@
 				</div><!-- // END : Column //  -->
 			</div><!-- // END : row //  -->
 
-			<hr class="light">
+			<hr class="light mt-0">
 			<p class="mr-0 op-05"><a href="#" target="_blank">Introps IT</a> &copy; <span class="copyright-year"></span></p>
 		</div>
 	</footer><!-- / Footer section -->

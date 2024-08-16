@@ -276,7 +276,7 @@
                     </li> 
 
                     <li class="col-md-auto" data-rgen-sm="pd-0 pd-t-10 align-c">
-                        <a href="/introps/contact" class="btn btn-white mini"><i class="far fa-envelope mr-r-4"></i> CONTACT US</a>
+                        <a href="/contact" class="btn btn-white mini"><i class="far fa-envelope mr-r-4"></i> CONTACT US</a>
                     </li>
                 </ul>
 
