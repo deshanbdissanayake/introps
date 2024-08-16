@@ -6,28 +6,37 @@ use CodeIgniter\Model;
 
 class Portfolio_m extends Model {
 
-    protected $table = 'portfolio';
-    protected $primaryKey = 'port_id';
-    protected $allowedFields = ['status'];
-
     public function getAllPortfolioData() {
-        $res = $this->where('status', 'active')->findAll();
+        $builder = $this->db->table('portfolio')
+            ->select('*')
+            ->where('portfolio_view', 1)
+            ->where('status', 'active');
+        $res = $builder->get()->getResult();
         
-        foreach ($res as &$re) { // use reference to modify array elements directly
-            $re['tags'] = $this->getTagByPortfolioId($re['port_id']);
+        foreach ($res as &$re) {
+            $re->tags = $this->getTagByPortfolioId($re->port_id);
         }
         
         return $res;
     }
     
     public function getAllTags() {
-        $builder = $this->db->table('portfolio_tags')
-            ->join('tags', 'tags.tag_id = portfolio_tags.tag_id', 'left')
+        $builder = $this->db->table('tags')
             ->select('tags.*')
-            ->where('tags.status', 'active');
+            ->where('status', 'active');
         $res = $builder->get()->getResult();
         return $res;
     }
+    
+    public function getPortfolioTags() {
+        $builder = $this->db->table('tags')
+            ->select('tags.*')
+            ->where('portfolio_tags', 1)
+            ->where('status', 'active');
+        $res = $builder->get()->getResult();
+        return $res;
+    }
+    
     
     public function getTagByPortfolioId($port_id) {
         $builder = $this->db->table('portfolio_tags')

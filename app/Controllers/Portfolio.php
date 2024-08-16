@@ -39,6 +39,11 @@ class Portfolio extends Controller
         return $this->response->setJSON($data);
     }
 
+    public function getPortfolioTags() {
+        $data = $this->portfolioModel->getPortfolioTags();
+        return $this->response->setJSON($data);
+    }
+
     public function getTagByPortfolioId($port_id) {
         $data = $this->portfolioModel->getTagByPortfolioId($port_id);
         return $this->response->setJSON($data);

@@ -25,7 +25,7 @@
 
     $(document).ready(async function() {
         try {
-            await getAllTags();
+            await getPortfolioTags();
             await getAllPortfolioData();
         } catch (error) {
             console.error('Initialization error:', error);
@@ -51,9 +51,9 @@
     // Get data
     //======================================================================================
 
-    const getAllTags = async () => {
+    const getPortfolioTags = async () => {
         try {
-            const response = await fetch('/portfolio/get_tags');
+            const response = await fetch('/portfolio/get_portfolio_tags');
             if (!response.ok) {
                 throw new Error('Network response was not ok: ' + response.statusText);
             }

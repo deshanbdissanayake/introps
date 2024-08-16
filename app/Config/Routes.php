@@ -20,6 +20,7 @@ $routes->get('products/pro/(:num)', 'Products::product/$1');
 // Portfolio Route
 $routes->get('/portfolio', 'Portfolio::index');
 $routes->get('portfolio/get_tags', 'Portfolio::getAllTags');
+$routes->get('portfolio/get_portfolio_tags', 'Portfolio::getPortfolioTags');
 $routes->get('portfolio/get_port', 'Portfolio::getAllPortfolioData');
 $routes->get('portfolio/get_port_by_id/(:num)', 'Portfolio::getPortfolioByTagId/$1');
 
