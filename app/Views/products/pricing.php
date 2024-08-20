@@ -14,30 +14,30 @@
 				<div class="row gt40 mb20">
 					<?php
 						if(!empty($price_packages)):
-						foreach($price_packages as $pkg):
-							$bdr = $pkg->pkg_fav ? 'bdr-default' : '';
-							$bg = $pkg->pkg_fav ? 'bg-default' : '';
-							$txt = $pkg->pkg_fav ? 'txt-default' : '';
+						foreach($price_packages as $package):
+							$bdr = $package->pkg_fav ? 'bdr-default' : '';
+							$bg = $package->pkg_fav ? 'bg-default' : '';
+							$txt = $package->pkg_fav ? 'txt-default' : '';
 
 					?>
 						<div class="col-md-6" data-animate-in="fadeInUp|0.1">
 							<div class="price-table-1 anim align-c bdr-1 <?=$bdr?> pd-tiny rd-5">
-								<?php if($pkg->pkg_fav): ?>
+								<?php if($package->pkg_fav): ?>
 									<span class="tag-text <?=$bg?>">Most Popular</span>
 								<?php endif; ?>
-								<h2 class="title small pd-10 <?=$txt?>"><?=$pkg->pkg_name?></h2>
+								<h2 class="title small pd-10 <?=$txt?>"><?=$package->pkg_name?></h2>
 
 								<hr>
 								
-								<p class="lh-1 mr-b-30 txt-dark"><span class="fs50"><?=$pkg->pkg_price?></span><?=is_numeric($pkg->pkg_price) ? 'LKR' : '' ?></p>
+								<p class="lh-1 mr-b-30 txt-dark"><span class="fs50"><?= $package->pkg_price > 0 ? number_format($package->pkg_price, 0) : 'Custom' ?></span><?= $package->pkg_price > 0 ? 'LKR' : '' ?><br> /per month</p>
 
 								<hr>
-								<?php foreach($pkg->features as $feature): ?>
+								<?php foreach($package->features as $feature): ?>
 									<p><?=$feature->pf_desc?></p>
 								<?php endforeach; ?>
 								<hr>
 
-								<a href="/contact?ref=products&id=<?= service('uri')->getSegment(3) ?>&pkg=<?=$pkg->pkg_id?>" class="btn btn-dark solid mr-tb-20">GET STARTED</a>
+								<a href="/contact?ref=products&id=<?= service('uri')->getSegment(3) ?>&pkg=<?=$package->pkg_id?>" class="btn btn-dark solid mr-tb-20">GET STARTED</a>
 							</div>
 						</div>
 					<?php

@@ -16,7 +16,7 @@
 						<?php } ?>
 						<h2 class="title small pd-20 bdr-b-2 bdr-op-1"><?=$package->pkg_name?></h2>
 						<div class="pd-tiny">
-							<p class="lh-1 mr-b-30 txt-dark"><span class="fs50"><?=$package->pkg_price?></span><?=is_numeric($package->pkg_price) ? 'LKR' : '' ?></p>
+							<p class="lh-1 mr-b-30 txt-dark"><span class="fs50"><?= $package->pkg_price > 0 ? number_format($package->pkg_price, 0) : 'Custom' ?></span><?= $package->pkg_price > 0 ? 'LKR' : '' ?></p>
 							<?php 
 								foreach($package->features as $feature){
 								if($feature->pf_type == 'main'){
