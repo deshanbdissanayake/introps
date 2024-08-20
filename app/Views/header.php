@@ -264,7 +264,7 @@
                                 </li>
                                 <li class="menu-item"><a href="/portfolio">Portfolio</a></li>
                                 <li class="menu-item dropdown">
-                                    <a class="dropbtn" href="/Introps_content/about">Introps <i class="fa fa-caret-down"></i></a>
+                                    <a class="dropbtn" href="#introps">Introps <i class="fa fa-caret-down"></i></a>
                                     <div class="dropdown-content">
                                         <a href="/introps/about">About</a>
                                         <a href="/introps/team">Team</a>

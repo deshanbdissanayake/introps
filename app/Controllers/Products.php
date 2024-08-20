@@ -38,11 +38,15 @@ class Products extends BaseController
         $output = view('header', $data['seo']);
         $output .= view('products/home', $data['home']);
         $output .= view('products/screenshot', $data['screenshots']);
-        $output .= view('products/features', $data['features']);
+        if($data['features']['show_features']){
+            $output .= view('products/features', $data['features']);
+        }
         if($data['pricing']['price_show_price']){
             $output .= view('products/pricing', $data['pricing']);
         }
-        $output .= view('products/testimonials', $data['testimonials']);
+        if($data['testimonials']['show_testimonials']){
+            $output .= view('products/testimonials', $data['testimonials']);
+        }
         $output .= view('contact_card');
         $output .= view('footer');
 

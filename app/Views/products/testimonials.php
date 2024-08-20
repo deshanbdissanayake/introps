@@ -1,9 +1,3 @@
-
-<style>
-	.testimonial-card{
-		height: 250px;
-	}
-</style>
 <section class="pos-rel pd-tb-small bg-dark" data-rgen-sm="pd-tb-small" id="testimonials">
 <div class="container pos-rel z2 typo-light">
 	<div class="w75 mr-auto align-c" data-animate-in="fadeIn">

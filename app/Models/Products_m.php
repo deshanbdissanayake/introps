@@ -57,12 +57,14 @@ class Products_m extends Model
             $data['features'] = [
                 'feature_title'       => $product->features_title ?? '',
                 'feature_subtitle'    => $product->features_desc ?? '',
+                'show_features'  => $product->show_features ?? 1,
                 'features' => $features,
             ];
     
             $data['testimonials'] = [
                 'testi_title'       => $product->testimonials_title ?? '',
                 'testi_subtitle'    => $product->testimonials_desc ?? '',
+                'show_testimonials'  => $product->show_testimonials ?? 1,
                 'testimonials'      => $testimonials,
             ];
     
